@@ -1,0 +1,10 @@
+ARCoreFaceEditorUtils
+Unity
+MARS
+Providers
+ARCoreFaceLandmarkIndicesEditor
+ARCoreFacialExpressionSettingsEditor
+ARKitFaceEditorUtils
+ARKitFaceLandmarkIndicesEditor
+ARKitFacialExpressionSettingsEditor
+MarkerProviderSettingsEditor

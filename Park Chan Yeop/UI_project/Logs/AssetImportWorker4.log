@@ -1,0 +1,258 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.37f1 (3b6005ad5ad6) revision 3891205'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22631) 64bit Professional' Language: 'ko' Physical Memory: 32599 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.3.37f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker4
+-projectPath
+C:/Users/IRENE_XD/My project (2)
+-logFile
+Logs/AssetImportWorker4.log
+-srvPort
+56341
+Successfully changed project path to: C:/Users/IRENE_XD/My project (2)
+C:/Users/IRENE_XD/My project (2)
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [9204] Host "[IP] 192.168.200.183 [Port] 0 [Flags] 2 [Guid] 1952677415 [EditorId] 1952677415 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-RIJCT46) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [9204] Host "[IP] 192.168.200.183 [Port] 0 [Flags] 2 [Guid] 1952677415 [EditorId] 1952677415 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-RIJCT46) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with {0} workers.
+Refreshing native plugins compatible for Editor in 110.82 ms, found 12 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.37f1 (3b6005ad5ad6)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.37f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/IRENE_XD/My project (2)/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3060 Ti (ID=0x24c9)
+    Vendor:   NVIDIA
+    VRAM:     8038 MB
+    Driver:   31.0.15.3623
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.37f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.37f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.37f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56936
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.37f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.37f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.012903 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 202 ms
+Refreshing native plugins compatible for Editor in 85.29 ms, found 12 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.787 seconds
+Domain Reload Profiling:
+	ReloadAssembly (787ms)
+		BeginReloadAssembly (86ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (617ms)
+			LoadAssemblies (80ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (78ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (18ms)
+			SetupLoadedEditorAssemblies (480ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (301ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (85ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (60ms)
+				ProcessInitializeOnLoadMethodAttributes (32ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.027648 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 86.48 ms, found 12 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Completed reload, in  2.149 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2150ms)
+		BeginReloadAssembly (172ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (15ms)
+		EndReloadAssembly (1858ms)
+			LoadAssemblies (203ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (252ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (60ms)
+			SetupLoadedEditorAssemblies (1360ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (17ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (87ms)
+				BeforeProcessingInitializeOnLoad (174ms)
+				ProcessInitializeOnLoadAttributes (969ms)
+				ProcessInitializeOnLoadMethodAttributes (93ms)
+				AfterProcessingInitializeOnLoad (20ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 1.48 ms, found 12 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6879 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 90 unused Assets / (1.1 MB). Loaded Objects now: 7330.
+Memory consumption went from 252.5 MB to 251.4 MB.
+Total: 13.317700 ms (FindLiveObjects: 0.359000 ms CreateObjectMapping: 0.344100 ms MarkObjects: 12.067000 ms  DeleteObjects: 0.546400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:CustomObjectIndexerAttribute: bc11b3a6c3213fcdd17b65e7da85e133 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 959969.006812 seconds.
+  path: Assets/VRUIP/Package Files/Images/Other/Test/GalleryImage1.png
+  artifactKey: Guid(95db4eb1b93a99f4fba693334e839d30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/VRUIP/Package Files/Images/Other/Test/GalleryImage1.png using Guid(95db4eb1b93a99f4fba693334e839d30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a98359efc0451707c8020991a8ef2031') in 0.099394 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/VRUIP/Package Files/Images/Other/Test/TestBanner2.png
+  artifactKey: Guid(806306af52f5a9b4abfa3083189294e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/VRUIP/Package Files/Images/Other/Test/TestBanner2.png using Guid(806306af52f5a9b4abfa3083189294e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8aa0a9d5fc565e265dfbfab5c721af9') in 0.015928 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/VRUIP/Package Files/Images/Other/Test/TestBanner4.png
+  artifactKey: Guid(568fc08b4906eb24a95890f80be08d08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/VRUIP/Package Files/Images/Other/Test/TestBanner4.png using Guid(568fc08b4906eb24a95890f80be08d08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a18097aadf4f0e14c38057f4a7cfbb21') in 0.018205 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/VRUIP/Package Files/Images/Other/Test/TestBanner3.png
+  artifactKey: Guid(8036d6946fa58d449ba11430fad16f9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/VRUIP/Package Files/Images/Other/Test/TestBanner3.png using Guid(8036d6946fa58d449ba11430fad16f9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72318885df967054f0ec0edde1c7bb1d') in 0.014474 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/VRUIP/Package Files/Images/Other/Test/TestImage1.png
+  artifactKey: Guid(e3732dbe5f495ae4f9f8c92b9ff55b77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/VRUIP/Package Files/Images/Other/Test/TestImage1.png using Guid(e3732dbe5f495ae4f9f8c92b9ff55b77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bce3ba969b0fe5406dc832206d0411b7') in 0.083982 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 1.108165 seconds.
+  path: Assets/VRUIP/Package Files/Images/Other/Test/TestImage2.png
+  artifactKey: Guid(89adc1acee29e5f4092370f57cc94c85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/VRUIP/Package Files/Images/Other/Test/TestImage2.png using Guid(89adc1acee29e5f4092370f57cc94c85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1f4d6702ee56b4f02f8b32146e918fa') in 0.069978 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.347899 seconds.
+  path: Assets/VRUIP/Package Files/Images/Other/Test/TestImage4.png
+  artifactKey: Guid(822def48c09fb9145abcf46cfda77d27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/VRUIP/Package Files/Images/Other/Test/TestImage4.png using Guid(822def48c09fb9145abcf46cfda77d27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f46d7e4be49f7a981737c6a99d69324') in 0.086665 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 2.715329 seconds.
+  path: Assets/VRUIP/Package Files/Images/Icons/256x256/Hamburger_Menu_Icon.png
+  artifactKey: Guid(0e83901fedf60d24c898d624935bf82e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/VRUIP/Package Files/Images/Icons/256x256/Hamburger_Menu_Icon.png using Guid(0e83901fedf60d24c898d624935bf82e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc279eed38e3b1a6d9c28d8e8f531e68') in 0.011697 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/VRUIP/Package Files/Images/Icons/256x256/Notes_Icon.png
+  artifactKey: Guid(29798fbefa648cf4f822cef3008daafb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/VRUIP/Package Files/Images/Icons/256x256/Notes_Icon.png using Guid(29798fbefa648cf4f822cef3008daafb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd7525d4facb7631d48f2123b70c599e') in 0.008142 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/VRUIP/Package Files/Images/Icons/256x256/NextVideo_Icon.png
+  artifactKey: Guid(4a5195edeb0e746478c7088152dbb21d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/VRUIP/Package Files/Images/Icons/256x256/NextVideo_Icon.png using Guid(4a5195edeb0e746478c7088152dbb21d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1880dee152a06d121931ccf877c8c72c') in 0.008570 seconds 
+Number of asset objects unloaded after import = 3
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

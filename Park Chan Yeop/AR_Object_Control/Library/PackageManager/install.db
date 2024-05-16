@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "packages": {
+    "com.unity.xr-content.mars-sim-environments": {
+      "tarball": {
+        "hash": "2a9e240015e4",
+        "mtime": 1713772742252,
+        "size": 46217919,
+        "localPath": "C:\\Github\\Virtual-Piano-Training-Environment\\Park Chan Yeop\\AR_Object_Control\\ContentPackages\\com.unity.xr-content.mars-sim-environments.tgz"
+      }
+    },
+    "com.unity.xr-content.template-mars-basic": {
+      "tarball": {
+        "hash": "1a9bf2dc1845",
+        "mtime": 1713772571558,
+        "size": 238528,
+        "localPath": "C:\\Github\\Virtual-Piano-Training-Environment\\Park Chan Yeop\\AR_Object_Control\\ContentPackages\\com.unity.xr-content.template-mars-basic.tgz"
+      }
+    },
+    "com.unity.xr-content.template-mars-platformer": {
+      "tarball": {
+        "hash": "aa3f0e55fc6d",
+        "mtime": 1713773012508,
+        "size": 3919458,
+        "localPath": "C:\\Github\\Virtual-Piano-Training-Environment\\Park Chan Yeop\\AR_Object_Control\\ContentPackages\\com.unity.xr-content.template-mars-platformer.tgz"
+      }
+    },
+    "com.unity.xr-content.template-training": {
+      "tarball": {
+        "hash": "8f69a99a2640",
+        "mtime": 1713770304031,
+        "size": 3284523,
+        "localPath": "C:\\Github\\Virtual-Piano-Training-Environment\\Park Chan Yeop\\AR_Object_Control\\ContentPackages\\com.unity.xr-content.template-training.tgz"
+      }
+    }
+  }
+}

@@ -1,0 +1,685 @@
+-target:library
+-out:"Library/Bee/artifacts/1900b0aE.dag/Unity.MARS.Editor.dll"
+-refout:"Library/Bee/artifacts/1900b0aE.dag/Unity.MARS.Editor.ref.dll"
+-define:UNITY_2021_3_37
+-define:UNITY_2021_3
+-define:UNITY_2021
+-define:UNITY_5_3_OR_NEWER
+-define:UNITY_5_4_OR_NEWER
+-define:UNITY_5_5_OR_NEWER
+-define:UNITY_5_6_OR_NEWER
+-define:UNITY_2017_1_OR_NEWER
+-define:UNITY_2017_2_OR_NEWER
+-define:UNITY_2017_3_OR_NEWER
+-define:UNITY_2017_4_OR_NEWER
+-define:UNITY_2018_1_OR_NEWER
+-define:UNITY_2018_2_OR_NEWER
+-define:UNITY_2018_3_OR_NEWER
+-define:UNITY_2018_4_OR_NEWER
+-define:UNITY_2019_1_OR_NEWER
+-define:UNITY_2019_2_OR_NEWER
+-define:UNITY_2019_3_OR_NEWER
+-define:UNITY_2019_4_OR_NEWER
+-define:UNITY_2020_1_OR_NEWER
+-define:UNITY_2020_2_OR_NEWER
+-define:UNITY_2020_3_OR_NEWER
+-define:UNITY_2021_1_OR_NEWER
+-define:UNITY_2021_2_OR_NEWER
+-define:UNITY_2021_3_OR_NEWER
+-define:PLATFORM_ARCH_64
+-define:UNITY_64
+-define:UNITY_INCLUDE_TESTS
+-define:ENABLE_AR
+-define:ENABLE_AUDIO
+-define:ENABLE_CACHING
+-define:ENABLE_CLOTH
+-define:ENABLE_EVENT_QUEUE
+-define:ENABLE_MICROPHONE
+-define:ENABLE_MULTIPLE_DISPLAYS
+-define:ENABLE_PHYSICS
+-define:ENABLE_TEXTURE_STREAMING
+-define:ENABLE_VIRTUALTEXTURING
+-define:ENABLE_UNET
+-define:ENABLE_LZMA
+-define:ENABLE_UNITYEVENTS
+-define:ENABLE_VR
+-define:ENABLE_WEBCAM
+-define:ENABLE_UNITYWEBREQUEST
+-define:ENABLE_WWW
+-define:ENABLE_CLOUD_SERVICES
+-define:ENABLE_CLOUD_SERVICES_ADS
+-define:ENABLE_CLOUD_SERVICES_USE_WEBREQUEST
+-define:ENABLE_CLOUD_SERVICES_CRASH_REPORTING
+-define:ENABLE_CLOUD_SERVICES_PURCHASING
+-define:ENABLE_CLOUD_SERVICES_ANALYTICS
+-define:ENABLE_CLOUD_SERVICES_UNET
+-define:ENABLE_CLOUD_SERVICES_BUILD
+-define:ENABLE_CLOUD_LICENSE
+-define:ENABLE_EDITOR_HUB_LICENSE
+-define:ENABLE_WEBSOCKET_CLIENT
+-define:ENABLE_DIRECTOR_AUDIO
+-define:ENABLE_DIRECTOR_TEXTURE
+-define:ENABLE_MANAGED_JOBS
+-define:ENABLE_MANAGED_TRANSFORM_JOBS
+-define:ENABLE_MANAGED_ANIMATION_JOBS
+-define:ENABLE_MANAGED_AUDIO_JOBS
+-define:ENABLE_MANAGED_UNITYTLS
+-define:INCLUDE_DYNAMIC_GI
+-define:ENABLE_SCRIPTING_GC_WBARRIERS
+-define:PLATFORM_SUPPORTS_MONO
+-define:RENDER_SOFTWARE_CURSOR
+-define:ENABLE_VIDEO
+-define:ENABLE_ACCELERATOR_CLIENT_DEBUGGING
+-define:PLATFORM_STANDALONE
+-define:TEXTCORE_1_0_OR_NEWER
+-define:PLATFORM_STANDALONE_WIN
+-define:UNITY_STANDALONE_WIN
+-define:UNITY_STANDALONE
+-define:ENABLE_RUNTIME_GI
+-define:ENABLE_MOVIES
+-define:ENABLE_NETWORK
+-define:ENABLE_NVIDIA
+-define:ENABLE_CRUNCH_TEXTURE_COMPRESSION
+-define:ENABLE_UNITY_GAME_SERVICES_ANALYTICS_SUPPORT
+-define:ENABLE_OUT_OF_PROCESS_CRASH_HANDLER
+-define:ENABLE_CLUSTER_SYNC
+-define:ENABLE_CLUSTERINPUT
+-define:PLATFORM_UPDATES_TIME_OUTSIDE_OF_PLAYER_LOOP
+-define:GFXDEVICE_WAITFOREVENT_MESSAGEPUMP
+-define:ENABLE_WEBSOCKET_HOST
+-define:ENABLE_MONO
+-define:NET_4_6
+-define:NET_UNITY_4_8
+-define:ENABLE_PROFILER
+-define:DEBUG
+-define:TRACE
+-define:UNITY_ASSERTIONS
+-define:UNITY_EDITOR
+-define:UNITY_EDITOR_64
+-define:UNITY_EDITOR_WIN
+-define:ENABLE_UNITY_COLLECTIONS_CHECKS
+-define:ENABLE_BURST_AOT
+-define:UNITY_TEAM_LICENSE
+-define:UNITY_PRO_LICENSE
+-define:ENABLE_CUSTOM_RENDER_TEXTURE
+-define:ENABLE_DIRECTOR
+-define:ENABLE_LOCALIZATION
+-define:ENABLE_SPRITES
+-define:ENABLE_TERRAIN
+-define:ENABLE_TILEMAP
+-define:ENABLE_TIMELINE
+-define:ENABLE_INPUT_SYSTEM
+-define:ENABLE_LEGACY_INPUT_MANAGER
+-define:TEXTCORE_FONT_ENGINE_1_5_OR_NEWER
+-define:UNITY_CCU
+-define:INCLUDE_AR_FOUNDATION
+-define:ARFOUNDATION_3_OR_NEWER
+-define:INCLUDE_XR_MANAGEMENT
+-define:XR_MANAGEMENT_4_0_OR_NEWER
+-define:INCLUDE_CONTENT_MANAGER
+-define:ARKIT_4_1_OR_NEWER
+-define:CSHARP_7_OR_LATER
+-define:CSHARP_7_3_OR_NEWER
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.37f1/Editor/Data/Managed/UnityEditor.Graphs.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.37f1/Editor/Data/Managed/UnityEngine/UnityEditor.CoreModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.37f1/Editor/Data/Managed/UnityEngine/UnityEditor.DeviceSimulatorModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.37f1/Editor/Data/Managed/UnityEngine/UnityEditor.DiagnosticsModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.37f1/Editor/Data/Managed/UnityEngine/UnityEditor.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.37f1/Editor/Data/Managed/UnityEngine/UnityEditor.GraphViewModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.37f1/Editor/Data/Managed/UnityEngine/UnityEditor.PackageManagerUIModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.37f1/Editor/Data/Managed/UnityEngine/UnityEditor.QuickSearchModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.37f1/Editor/Data/Managed/UnityEngine/UnityEditor.SceneTemplateModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.37f1/Editor/Data/Managed/UnityEngine/UnityEditor.TextCoreFontEngineModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.37f1/Editor/Data/Managed/UnityEngine/UnityEditor.TextCoreTextEngineModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.37f1/Editor/Data/Managed/UnityEngine/UnityEditor.UIBuilderModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.37f1/Editor/Data/Managed/UnityEngine/UnityEditor.UIElementsModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.37f1/Editor/Data/Managed/UnityEngine/UnityEditor.UIElementsSamplesModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.37f1/Editor/Data/Managed/UnityEngine/UnityEditor.UIServiceModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.37f1/Editor/Data/Managed/UnityEngine/UnityEditor.UnityConnectModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.37f1/Editor/Data/Managed/UnityEngine/UnityEngine.AccessibilityModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.37f1/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.37f1/Editor/Data/Managed/UnityEngine/UnityEngine.AndroidJNIModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.37f1/Editor/Data/Managed/UnityEngine/UnityEngine.AnimationModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.37f1/Editor/Data/Managed/UnityEngine/UnityEngine.ARModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.37f1/Editor/Data/Managed/UnityEngine/UnityEngine.AssetBundleModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.37f1/Editor/Data/Managed/UnityEngine/UnityEngine.AudioModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.37f1/Editor/Data/Managed/UnityEngine/UnityEngine.ClothModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.37f1/Editor/Data/Managed/UnityEngine/UnityEngine.ClusterInputModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.37f1/Editor/Data/Managed/UnityEngine/UnityEngine.ClusterRendererModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.37f1/Editor/Data/Managed/UnityEngine/UnityEngine.CoreModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.37f1/Editor/Data/Managed/UnityEngine/UnityEngine.CrashReportingModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.37f1/Editor/Data/Managed/UnityEngine/UnityEngine.DirectorModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.37f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.37f1/Editor/Data/Managed/UnityEngine/UnityEngine.DSPGraphModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.37f1/Editor/Data/Managed/UnityEngine/UnityEngine.GameCenterModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.37f1/Editor/Data/Managed/UnityEngine/UnityEngine.GIModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.37f1/Editor/Data/Managed/UnityEngine/UnityEngine.GridModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.37f1/Editor/Data/Managed/UnityEngine/UnityEngine.HotReloadModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.37f1/Editor/Data/Managed/UnityEngine/UnityEngine.ImageConversionModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.37f1/Editor/Data/Managed/UnityEngine/UnityEngine.IMGUIModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.37f1/Editor/Data/Managed/UnityEngine/UnityEngine.InputLegacyModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.37f1/Editor/Data/Managed/UnityEngine/UnityEngine.InputModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.37f1/Editor/Data/Managed/UnityEngine/UnityEngine.JSONSerializeModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.37f1/Editor/Data/Managed/UnityEngine/UnityEngine.LocalizationModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.37f1/Editor/Data/Managed/UnityEngine/UnityEngine.NVIDIAModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.37f1/Editor/Data/Managed/UnityEngine/UnityEngine.ParticleSystemModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.37f1/Editor/Data/Managed/UnityEngine/UnityEngine.PerformanceReportingModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.37f1/Editor/Data/Managed/UnityEngine/UnityEngine.Physics2DModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.37f1/Editor/Data/Managed/UnityEngine/UnityEngine.PhysicsModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.37f1/Editor/Data/Managed/UnityEngine/UnityEngine.ProfilerModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.37f1/Editor/Data/Managed/UnityEngine/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.37f1/Editor/Data/Managed/UnityEngine/UnityEngine.ScreenCaptureModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.37f1/Editor/Data/Managed/UnityEngine/UnityEngine.SharedInternalsModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.37f1/Editor/Data/Managed/UnityEngine/UnityEngine.SpriteMaskModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.37f1/Editor/Data/Managed/UnityEngine/UnityEngine.SpriteShapeModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.37f1/Editor/Data/Managed/UnityEngine/UnityEngine.StreamingModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.37f1/Editor/Data/Managed/UnityEngine/UnityEngine.SubstanceModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.37f1/Editor/Data/Managed/UnityEngine/UnityEngine.SubsystemsModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.37f1/Editor/Data/Managed/UnityEngine/UnityEngine.TerrainModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.37f1/Editor/Data/Managed/UnityEngine/UnityEngine.TerrainPhysicsModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.37f1/Editor/Data/Managed/UnityEngine/UnityEngine.TextCoreFontEngineModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.37f1/Editor/Data/Managed/UnityEngine/UnityEngine.TextCoreTextEngineModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.37f1/Editor/Data/Managed/UnityEngine/UnityEngine.TextRenderingModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.37f1/Editor/Data/Managed/UnityEngine/UnityEngine.TilemapModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.37f1/Editor/Data/Managed/UnityEngine/UnityEngine.TLSModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.37f1/Editor/Data/Managed/UnityEngine/UnityEngine.UIElementsModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.37f1/Editor/Data/Managed/UnityEngine/UnityEngine.UIElementsNativeModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.37f1/Editor/Data/Managed/UnityEngine/UnityEngine.UIModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.37f1/Editor/Data/Managed/UnityEngine/UnityEngine.UmbraModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.37f1/Editor/Data/Managed/UnityEngine/UnityEngine.UNETModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.37f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityAnalyticsCommonModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.37f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityAnalyticsModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.37f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityConnectModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.37f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityCurlModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.37f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityTestProtocolModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.37f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestAssetBundleModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.37f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestAudioModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.37f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.37f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestTextureModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.37f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestWWWModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.37f1/Editor/Data/Managed/UnityEngine/UnityEngine.VehiclesModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.37f1/Editor/Data/Managed/UnityEngine/UnityEngine.VFXModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.37f1/Editor/Data/Managed/UnityEngine/UnityEngine.VideoModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.37f1/Editor/Data/Managed/UnityEngine/UnityEngine.VirtualTexturingModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.37f1/Editor/Data/Managed/UnityEngine/UnityEngine.VRModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.37f1/Editor/Data/Managed/UnityEngine/UnityEngine.WindModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.37f1/Editor/Data/Managed/UnityEngine/UnityEngine.XRModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.37f1/Editor/Data/PlaybackEngines/AndroidPlayer/Unity.Android.Gradle.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.37f1/Editor/Data/PlaybackEngines/AndroidPlayer/Unity.Android.Types.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.37f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.37f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.37f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/Microsoft.Win32.Primitives.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.37f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/netstandard.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.37f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.AppContext.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.37f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Buffers.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.37f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Collections.Concurrent.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.37f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Collections.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.37f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Collections.NonGeneric.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.37f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Collections.Specialized.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.37f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.ComponentModel.Annotations.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.37f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.ComponentModel.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.37f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.ComponentModel.EventBasedAsync.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.37f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.ComponentModel.Primitives.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.37f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.ComponentModel.TypeConverter.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.37f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Console.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.37f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Data.Common.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.37f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Diagnostics.Contracts.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.37f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Diagnostics.Debug.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.37f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Diagnostics.FileVersionInfo.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.37f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Diagnostics.Process.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.37f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Diagnostics.StackTrace.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.37f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Diagnostics.TextWriterTraceListener.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.37f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Diagnostics.Tools.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.37f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Diagnostics.TraceSource.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.37f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Drawing.Primitives.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.37f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Dynamic.Runtime.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.37f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Globalization.Calendars.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.37f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Globalization.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.37f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Globalization.Extensions.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.37f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.IO.Compression.ZipFile.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.37f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.IO.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.37f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.IO.FileSystem.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.37f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.IO.FileSystem.DriveInfo.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.37f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.IO.FileSystem.Primitives.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.37f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.IO.FileSystem.Watcher.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.37f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.IO.IsolatedStorage.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.37f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.IO.MemoryMappedFiles.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.37f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.IO.Pipes.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.37f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.IO.UnmanagedMemoryStream.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.37f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Linq.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.37f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Linq.Expressions.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.37f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Linq.Parallel.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.37f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Linq.Queryable.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.37f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Memory.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.37f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Net.Http.Rtc.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.37f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Net.NameResolution.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.37f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Net.NetworkInformation.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.37f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Net.Ping.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.37f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Net.Primitives.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.37f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Net.Requests.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.37f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Net.Security.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.37f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Net.Sockets.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.37f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Net.WebHeaderCollection.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.37f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Net.WebSockets.Client.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.37f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Net.WebSockets.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.37f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.ObjectModel.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.37f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Reflection.DispatchProxy.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.37f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Reflection.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.37f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Reflection.Emit.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.37f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Reflection.Emit.ILGeneration.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.37f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Reflection.Emit.Lightweight.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.37f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Reflection.Extensions.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.37f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Reflection.Primitives.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.37f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Resources.Reader.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.37f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Resources.ResourceManager.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.37f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Resources.Writer.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.37f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Runtime.CompilerServices.VisualC.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.37f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Runtime.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.37f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Runtime.Extensions.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.37f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Runtime.Handles.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.37f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Runtime.InteropServices.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.37f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Runtime.InteropServices.RuntimeInformation.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.37f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Runtime.InteropServices.WindowsRuntime.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.37f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Runtime.Numerics.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.37f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Runtime.Serialization.Formatters.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.37f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Runtime.Serialization.Json.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.37f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Runtime.Serialization.Primitives.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.37f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Runtime.Serialization.Xml.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.37f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Security.Claims.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.37f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Security.Cryptography.Algorithms.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.37f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Security.Cryptography.Csp.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.37f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Security.Cryptography.Encoding.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.37f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Security.Cryptography.Primitives.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.37f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Security.Cryptography.X509Certificates.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.37f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Security.Principal.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.37f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Security.SecureString.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.37f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.ServiceModel.Duplex.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.37f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.ServiceModel.Http.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.37f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.ServiceModel.NetTcp.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.37f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.ServiceModel.Primitives.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.37f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.ServiceModel.Security.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.37f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Text.Encoding.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.37f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Text.Encoding.Extensions.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.37f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Text.RegularExpressions.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.37f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Threading.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.37f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Threading.Overlapped.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.37f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Threading.Tasks.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.37f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Threading.Tasks.Extensions.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.37f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Threading.Tasks.Parallel.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.37f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Threading.Thread.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.37f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Threading.ThreadPool.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.37f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Threading.Timer.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.37f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.ValueTuple.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.37f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Xml.ReaderWriter.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.37f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Xml.XDocument.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.37f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Xml.XmlDocument.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.37f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Xml.XmlSerializer.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.37f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Xml.XPath.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.37f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Xml.XPath.XDocument.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.37f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Microsoft.CSharp.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.37f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/mscorlib.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.37f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/System.ComponentModel.Composition.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.37f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/System.Core.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.37f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/System.Data.DataSetExtensions.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.37f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/System.Data.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.37f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/System.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.37f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/System.Drawing.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.37f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/System.IO.Compression.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.37f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/System.IO.Compression.FileSystem.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.37f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/System.Net.Http.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.37f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/System.Numerics.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.37f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/System.Numerics.Vectors.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.37f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/System.Runtime.Serialization.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.37f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/System.Transactions.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.37f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/System.Xml.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.37f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/System.Xml.Linq.dll"
+-r:"C:/Users/IRENE_XD/My project (2)/Library/PackageCache/com.unity.ar-companion-core@3.0.0-exp.3/zxing.unity.dll"
+-r:"C:/Users/IRENE_XD/My project (2)/Library/PackageCache/com.unity.collab-proxy@2.3.1/Lib/Editor/PlasticSCM/log4netPlastic.dll"
+-r:"C:/Users/IRENE_XD/My project (2)/Library/PackageCache/com.unity.collab-proxy@2.3.1/Lib/Editor/PlasticSCM/Unity.Plastic.Antlr3.Runtime.dll"
+-r:"C:/Users/IRENE_XD/My project (2)/Library/PackageCache/com.unity.collab-proxy@2.3.1/Lib/Editor/PlasticSCM/Unity.Plastic.Newtonsoft.Json.dll"
+-r:"C:/Users/IRENE_XD/My project (2)/Library/PackageCache/com.unity.collab-proxy@2.3.1/Lib/Editor/PlasticSCM/unityplastic.dll"
+-r:"C:/Users/IRENE_XD/My project (2)/Library/PackageCache/com.unity.collections@1.2.4/Unity.Collections.LowLevel.ILSupport/Unity.Collections.LowLevel.ILSupport.dll"
+-r:"C:/Users/IRENE_XD/My project (2)/Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom/nunit.framework.dll"
+-r:"C:/Users/IRENE_XD/My project (2)/Library/PackageCache/com.unity.nuget.mono-cecil@1.10.1/Mono.Cecil.dll"
+-r:"C:/Users/IRENE_XD/My project (2)/Library/PackageCache/com.unity.runtime-scene-serialization@1.0.0-exp.3/Tests/Common/PreCompiledAssembly.dll"
+-r:"C:/Users/IRENE_XD/My project (2)/Library/PackageCache/com.unity.sharp-zip-lib@1.2.2-preview.2/Runtime/Unity.SharpZipLib.dll"
+-r:"C:/Users/IRENE_XD/My project (2)/Library/PackageCache/com.unity.testtools.codecoverage@1.2.5/lib/ReportGenerator/ReportGeneratorMerged.dll"
+-r:"C:/Users/IRENE_XD/My project (2)/Library/PackageCache/com.unity.visualscripting@1.9.2/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll"
+-r:"C:/Users/IRENE_XD/My project (2)/Library/PackageCache/com.unity.visualscripting@1.9.2/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll"
+-r:"C:/Users/IRENE_XD/My project (2)/Library/PackageCache/com.unity.visualscripting@1.9.2/Editor/VisualScripting.Core/EditorAssetResources/Unity.VisualScripting.TextureAssets.dll"
+-r:"C:/Users/IRENE_XD/My project (2)/Library/PackageCache/com.unity.visualscripting@1.9.2/Runtime/VisualScripting.Flow/Dependencies/NCalc/Unity.VisualScripting.Antlr3.Runtime.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/Unity.ContentManager.Editor.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/Unity.MARS.HandlesEditor.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/Unity.MARS.Interfaces.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/Unity.MARS.MARSHandles.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/Unity.MARS.Providers.HoloLens.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/Unity.MARS.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/Unity.Timeline.Editor.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/Unity.Timeline.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/Unity.XR.ARFoundation.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/Unity.XR.ARKit.Editor.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/Unity.XR.Management.Editor.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/Unity.XR.Management.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/Unity.XRTools.ModuleLoader.Editor.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/Unity.XRTools.ModuleLoader.Interfaces.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/Unity.XRTools.ModuleLoader.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/Unity.XRTools.Utils.Editor.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/Unity.XRTools.Utils.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/UnityEditor.TestRunner.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/UnityEditor.UI.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/UnityEngine.TestRunner.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/UnityEngine.UI.ref.dll"
+"Library/PackageCache/com.unity.mars@1.5.0/Editor/Analytics/EditorEvents.cs"
+"Library/PackageCache/com.unity.mars@1.5.0/Editor/Analytics/MarsAnalytics.cs"
+"Library/PackageCache/com.unity.mars@1.5.0/Editor/AssemblyInfo.cs"
+"Library/PackageCache/com.unity.mars@1.5.0/Editor/CompareTool/MarsCompareTool.cs"
+"Library/PackageCache/com.unity.mars@1.5.0/Editor/CompareTool/UI/CompareInfoOverlay.cs"
+"Library/PackageCache/com.unity.mars@1.5.0/Editor/ContentManager/MarsContentManagerUtils.cs"
+"Library/PackageCache/com.unity.mars@1.5.0/Editor/CreateTool/MarsCreateTool.cs"
+"Library/PackageCache/com.unity.mars@1.5.0/Editor/CreateTool/UI/CreateButtonsOverlay.cs"
+"Library/PackageCache/com.unity.mars@1.5.0/Editor/CreateTool/UI/CreateFromDataBaseUI.cs"
+"Library/PackageCache/com.unity.mars@1.5.0/Editor/CreateTool/UI/CreateFromDataWindow.cs"
+"Library/PackageCache/com.unity.mars@1.5.0/Editor/CreateTool/UI/CreateProxyFromDataUI.cs"
+"Library/PackageCache/com.unity.mars@1.5.0/Editor/CreateTool/UI/CreateProxyGroupFromDataUI.cs"
+"Library/PackageCache/com.unity.mars@1.5.0/Editor/CreateTool/UI/DataInfoOverlay.cs"
+"Library/PackageCache/com.unity.mars@1.5.0/Editor/CreateTool/UI/PotentialChildUI.cs"
+"Library/PackageCache/com.unity.mars@1.5.0/Editor/CreateTool/UI/PotentialConditionUI.cs"
+"Library/PackageCache/com.unity.mars@1.5.0/Editor/GUI/ComponentInspector.cs"
+"Library/PackageCache/com.unity.mars@1.5.0/Editor/GUI/ComponentListEditor.cs"
+"Library/PackageCache/com.unity.mars@1.5.0/Editor/GUI/Decorators/AttributeDecorator.cs"
+"Library/PackageCache/com.unity.mars@1.5.0/Editor/GUI/Decorators/Decorators.cs"
+"Library/PackageCache/com.unity.mars@1.5.0/Editor/GUI/EditorGUIUtils.cs"
+"Library/PackageCache/com.unity.mars@1.5.0/Editor/GUI/EventInspectorUtils.cs"
+"Library/PackageCache/com.unity.mars@1.5.0/Editor/GUI/IComponentList.cs"
+"Library/PackageCache/com.unity.mars@1.5.0/Editor/GUI/MarsEditorGUI.cs"
+"Library/PackageCache/com.unity.mars@1.5.0/Editor/GUI/MenuConstants.cs"
+"Library/PackageCache/com.unity.mars@1.5.0/Editor/GUI/MonoBehaviourComponentList.cs"
+"Library/PackageCache/com.unity.mars@1.5.0/Editor/GUI/ObjectCreationDataInspector.cs"
+"Library/PackageCache/com.unity.mars@1.5.0/Editor/GUI/ScenePlacementGUI.cs"
+"Library/PackageCache/com.unity.mars@1.5.0/Editor/GUI/SerializedPropertyData.cs"
+"Library/PackageCache/com.unity.mars@1.5.0/Editor/Rules/Scripts/ActionRow.cs"
+"Library/PackageCache/com.unity.mars@1.5.0/Editor/Rules/Scripts/BuildSurfaceRow.cs"
+"Library/PackageCache/com.unity.mars@1.5.0/Editor/Rules/Scripts/ChangeProxyWindow.cs"
+"Library/PackageCache/com.unity.mars@1.5.0/Editor/Rules/Scripts/ContentRow.cs"
+"Library/PackageCache/com.unity.mars@1.5.0/Editor/Rules/Scripts/CustomRuleNodeAttribute.cs"
+"Library/PackageCache/com.unity.mars@1.5.0/Editor/Rules/Scripts/EntityRow.cs"
+"Library/PackageCache/com.unity.mars@1.5.0/Editor/Rules/Scripts/MatchBodyRow.cs"
+"Library/PackageCache/com.unity.mars@1.5.0/Editor/Rules/Scripts/ProxyRow.cs"
+"Library/PackageCache/com.unity.mars@1.5.0/Editor/Rules/Scripts/ReplicatorRow.cs"
+"Library/PackageCache/com.unity.mars@1.5.0/Editor/Rules/Scripts/RuleNode.cs"
+"Library/PackageCache/com.unity.mars@1.5.0/Editor/Rules/Scripts/RuleNodeAddBar.cs"
+"Library/PackageCache/com.unity.mars@1.5.0/Editor/Rules/Scripts/RulesActionDropdowns.cs"
+"Library/PackageCache/com.unity.mars@1.5.0/Editor/Rules/Scripts/RulesDrawer.cs"
+"Library/PackageCache/com.unity.mars@1.5.0/Editor/Rules/Scripts/RulesetEditor.cs"
+"Library/PackageCache/com.unity.mars@1.5.0/Editor/Rules/Scripts/RulesModule.cs"
+"Library/PackageCache/com.unity.mars@1.5.0/Editor/Rules/Scripts/RulesWindow.cs"
+"Library/PackageCache/com.unity.mars@1.5.0/Editor/Scripts/Actions/BodyActionInspector.cs"
+"Library/PackageCache/com.unity.mars@1.5.0/Editor/Scripts/Actions/BodyExpressionActionInspector.cs"
+"Library/PackageCache/com.unity.mars@1.5.0/Editor/Scripts/Actions/BuildSurfaceActionInspector.cs"
+"Library/PackageCache/com.unity.mars@1.5.0/Editor/Scripts/Actions/FaceLandmarksActionInspector.cs"
+"Library/PackageCache/com.unity.mars@1.5.0/Editor/Scripts/Build/ARCoreBuildValidationRules.cs"
+"Library/PackageCache/com.unity.mars@1.5.0/Editor/Scripts/Build/ARFoundationBuildValidationRules.cs"
+"Library/PackageCache/com.unity.mars@1.5.0/Editor/Scripts/Build/ARKitBuildValidationRules.cs"
+"Library/PackageCache/com.unity.mars@1.5.0/Editor/Scripts/Build/BuildValidationRule.cs"
+"Library/PackageCache/com.unity.mars@1.5.0/Editor/Scripts/Build/BuildValidator.cs"
+"Library/PackageCache/com.unity.mars@1.5.0/Editor/Scripts/Build/BuildValidatorPreprocessBuild.cs"
+"Library/PackageCache/com.unity.mars@1.5.0/Editor/Scripts/Build/BuildValidatorSettings.cs"
+"Library/PackageCache/com.unity.mars@1.5.0/Editor/Scripts/Build/ElectiveExtensions.deprecated.cs"
+"Library/PackageCache/com.unity.mars@1.5.0/Editor/Scripts/Build/ElectiveExtensionsConfiguration.deprecated.cs"
+"Library/PackageCache/com.unity.mars@1.5.0/Editor/Scripts/Build/LuminBuildValidationRules.cs"
+"Library/PackageCache/com.unity.mars@1.5.0/Editor/Scripts/Build/MarsProjectValidationDrawer.cs"
+"Library/PackageCache/com.unity.mars@1.5.0/Editor/Scripts/Build/MarsRenderingBuildValidationRules.cs"
+"Library/PackageCache/com.unity.mars@1.5.0/Editor/Scripts/Build/MarsValidatorRules.cs"
+"Library/PackageCache/com.unity.mars@1.5.0/Editor/Scripts/Build/PackageVersion.cs"
+"Library/PackageCache/com.unity.mars@1.5.0/Editor/Scripts/Build/PackageVersionUtility.cs"
+"Library/PackageCache/com.unity.mars@1.5.0/Editor/Scripts/Build/WSABuildValidationRules.cs"
+"Library/PackageCache/com.unity.mars@1.5.0/Editor/Scripts/CodeGen/BaseCodeGenerator.cs"
+"Library/PackageCache/com.unity.mars@1.5.0/Editor/Scripts/CodeGen/CodeGenerationShared.cs"
+"Library/PackageCache/com.unity.mars@1.5.0/Editor/Scripts/CodeGen/CodeGenerationTypeData.cs"
+"Library/PackageCache/com.unity.mars@1.5.0/Editor/Scripts/CodeGen/GeneratedTypeSet.cs"
+"Library/PackageCache/com.unity.mars@1.5.0/Editor/Scripts/CodeGen/Generators/CachedTraitCollectionsCodeGenerator.cs"
+"Library/PackageCache/com.unity.mars@1.5.0/Editor/Scripts/CodeGen/Generators/ConditionRatingsCodeGenerator.cs"
+"Library/PackageCache/com.unity.mars@1.5.0/Editor/Scripts/CodeGen/Generators/ConditionsCodeGenerator.cs"
+"Library/PackageCache/com.unity.mars@1.5.0/Editor/Scripts/CodeGen/Generators/DatabaseConditionsCodeGenerator.cs"
+"Library/PackageCache/com.unity.mars@1.5.0/Editor/Scripts/CodeGen/Generators/DatabaseRelationsCodeGenerator.cs"
+"Library/PackageCache/com.unity.mars@1.5.0/Editor/Scripts/CodeGen/Generators/DatabaseTraitsCodeGenerator.cs"
+"Library/PackageCache/com.unity.mars@1.5.0/Editor/Scripts/CodeGen/Generators/FindMatchProposalsCodeGenerator.cs"
+"Library/PackageCache/com.unity.mars@1.5.0/Editor/Scripts/CodeGen/Generators/MatchRatingCodeGenerator.cs"
+"Library/PackageCache/com.unity.mars@1.5.0/Editor/Scripts/CodeGen/Generators/PoolsCodeGenerator.cs"
+"Library/PackageCache/com.unity.mars@1.5.0/Editor/Scripts/CodeGen/Generators/QueryResultCodeGenerator.cs"
+"Library/PackageCache/com.unity.mars@1.5.0/Editor/Scripts/CodeGen/Generators/RelationMatchRatingCodeGenerator.cs"
+"Library/PackageCache/com.unity.mars@1.5.0/Editor/Scripts/CodeGen/Generators/RelationsCodeGenerator.cs"
+"Library/PackageCache/com.unity.mars@1.5.0/Editor/Scripts/CodeGen/Generators/RelationTraitCacheCodeGenerator.cs"
+"Library/PackageCache/com.unity.mars@1.5.0/Editor/Scripts/CodeGen/Generators/ResultFillCodeGenerator.cs"
+"Library/PackageCache/com.unity.mars@1.5.0/Editor/Scripts/CodeGen/Generators/SetQueryPipelineCodeGenerator.cs"
+"Library/PackageCache/com.unity.mars@1.5.0/Editor/Scripts/CodeGen/Generators/TraitDataSnapshotCodeGenerator.cs"
+"Library/PackageCache/com.unity.mars@1.5.0/Editor/Scripts/CodeGen/IGeneratesCode.cs"
+"Library/PackageCache/com.unity.mars@1.5.0/Editor/Scripts/CodeGen/TraitCodeGenerator.cs"
+"Library/PackageCache/com.unity.mars@1.5.0/Editor/Scripts/Conditions/AlignmentConditionInspector.cs"
+"Library/PackageCache/com.unity.mars@1.5.0/Editor/Scripts/Conditions/ConditionBaseInspector.cs"
+"Library/PackageCache/com.unity.mars@1.5.0/Editor/Scripts/Conditions/ConditionVerifier.cs"
+"Library/PackageCache/com.unity.mars@1.5.0/Editor/Scripts/Conditions/DistanceRelationInspector.cs"
+"Library/PackageCache/com.unity.mars@1.5.0/Editor/Scripts/Conditions/ElevationRelationInspector.cs"
+"Library/PackageCache/com.unity.mars@1.5.0/Editor/Scripts/Conditions/GeoFenceConditionInspector.cs"
+"Library/PackageCache/com.unity.mars@1.5.0/Editor/Scripts/Conditions/HeightAboveFloorConditionInspector.cs"
+"Library/PackageCache/com.unity.mars@1.5.0/Editor/Scripts/Conditions/MarkerConditionInspector.cs"
+"Library/PackageCache/com.unity.mars@1.5.0/Editor/Scripts/Conditions/MultiConditionEditor.cs"
+"Library/PackageCache/com.unity.mars@1.5.0/Editor/Scripts/Conditions/MultiConditionInspector.cs"
+"Library/PackageCache/com.unity.mars@1.5.0/Editor/Scripts/Conditions/MultiRelationEditor.cs"
+"Library/PackageCache/com.unity.mars@1.5.0/Editor/Scripts/Conditions/MultiRelationInspector.cs"
+"Library/PackageCache/com.unity.mars@1.5.0/Editor/Scripts/Conditions/PlaneSizeConditionInspector.cs"
+"Library/PackageCache/com.unity.mars@1.5.0/Editor/Scripts/Conditions/RelationInspector.cs"
+"Library/PackageCache/com.unity.mars@1.5.0/Editor/Scripts/Conditions/SemanticTagConditionInspector.cs"
+"Library/PackageCache/com.unity.mars@1.5.0/Editor/Scripts/Conditions/SpatialConditionInspector.cs"
+"Library/PackageCache/com.unity.mars@1.5.0/Editor/Scripts/Conditions/Tags/FixedTagConditionInspector.cs"
+"Library/PackageCache/com.unity.mars@1.5.0/Editor/Scripts/Conditions/Tags/IsFaceConditionInspector.cs"
+"Library/PackageCache/com.unity.mars@1.5.0/Editor/Scripts/Conditions/Tags/IsPlaneConditionInspector.cs"
+"Library/PackageCache/com.unity.mars@1.5.0/Editor/Scripts/Data/BodyPose/BodyPoseDataInspector.cs"
+"Library/PackageCache/com.unity.mars@1.5.0/Editor/Scripts/Data/BodyPose/BodyTrackingModule.cs"
+"Library/PackageCache/com.unity.mars@1.5.0/Editor/Scripts/Data/DarkLightIconPair.cs"
+"Library/PackageCache/com.unity.mars@1.5.0/Editor/Scripts/Data/Editors/GeographicBoundingBoxPropertyDrawer.cs"
+"Library/PackageCache/com.unity.mars@1.5.0/Editor/Scripts/Data/Editors/GeographicCoordinatePropertyDrawer.cs"
+"Library/PackageCache/com.unity.mars@1.5.0/Editor/Scripts/Data/MarsHelpURLs.cs"
+"Library/PackageCache/com.unity.mars@1.5.0/Editor/Scripts/Data/MarsHints.cs"
+"Library/PackageCache/com.unity.mars@1.5.0/Editor/Scripts/Data/MarsInspectorSharedSettings.cs"
+"Library/PackageCache/com.unity.mars@1.5.0/Editor/Scripts/Data/MarsObjectCreationSettings.cs"
+"Library/PackageCache/com.unity.mars@1.5.0/Editor/Scripts/Data/MarsUIResources.cs"
+"Library/PackageCache/com.unity.mars@1.5.0/Editor/Scripts/Data/MarsUserGeoLocations.cs"
+"Library/PackageCache/com.unity.mars@1.5.0/Editor/Scripts/Data/MarsUserPreferences.cs"
+"Library/PackageCache/com.unity.mars@1.5.0/Editor/Scripts/Data/MarsWorldScaleSettings.cs"
+"Library/PackageCache/com.unity.mars@1.5.0/Editor/Scripts/Data/ObjectCreation/Deprecated/ObjectCreationButtonData.Deprecated.cs"
+"Library/PackageCache/com.unity.mars@1.5.0/Editor/Scripts/Data/ObjectCreation/Deprecated/ObjectCreationButtonDataGenericPrefab.Deprecated.cs"
+"Library/PackageCache/com.unity.mars@1.5.0/Editor/Scripts/Data/ObjectCreation/Deprecated/ObjectCreationData.Deprecated.cs"
+"Library/PackageCache/com.unity.mars@1.5.0/Editor/Scripts/Data/ObjectCreation/GenericPrefabObjectCreationData.cs"
+"Library/PackageCache/com.unity.mars@1.5.0/Editor/Scripts/Data/ObjectCreation/ObjectCreationData.cs"
+"Library/PackageCache/com.unity.mars@1.5.0/Editor/Scripts/Data/ObjectCreation/Presets/BodyObjectCreationData.cs"
+"Library/PackageCache/com.unity.mars@1.5.0/Editor/Scripts/Data/ObjectCreation/Presets/ElevatedSurfaceObjectObjectCreationData.cs"
+"Library/PackageCache/com.unity.mars@1.5.0/Editor/Scripts/Data/ObjectCreation/Presets/FaceMaskObjectCreationData.cs"
+"Library/PackageCache/com.unity.mars@1.5.0/Editor/Scripts/Data/ObjectCreation/Presets/FloorObjectObjectCreationData.cs"
+"Library/PackageCache/com.unity.mars@1.5.0/Editor/Scripts/Data/ObjectCreation/Presets/HorizontalPlaneObjectCreationData.cs"
+"Library/PackageCache/com.unity.mars@1.5.0/Editor/Scripts/Data/ObjectCreation/Presets/ImageMarkerObjectCreationData.cs"
+"Library/PackageCache/com.unity.mars@1.5.0/Editor/Scripts/Data/ObjectCreation/Presets/VerticalPlaneObjectCreationData.cs"
+"Library/PackageCache/com.unity.mars@1.5.0/Editor/Scripts/Data/ObjectCreation/Primitives/ProxyGroupObjectCreationData.cs"
+"Library/PackageCache/com.unity.mars@1.5.0/Editor/Scripts/Data/ObjectCreation/Primitives/ProxyObjectObjectCreationData.cs"
+"Library/PackageCache/com.unity.mars@1.5.0/Editor/Scripts/Data/ObjectCreation/Primitives/ProxyReplicatorObjectCreationData.cs"
+"Library/PackageCache/com.unity.mars@1.5.0/Editor/Scripts/Data/ObjectCreation/Primitives/SyntheticObjectObjectCreationData.cs"
+"Library/PackageCache/com.unity.mars@1.5.0/Editor/Scripts/Data/ObjectCreation/Simulated/SyntheticBodyObjectCreationData.cs"
+"Library/PackageCache/com.unity.mars@1.5.0/Editor/Scripts/Data/ObjectCreation/Simulated/SyntheticMarkerObjectCreationData.cs"
+"Library/PackageCache/com.unity.mars@1.5.0/Editor/Scripts/Data/ObjectCreation/Visualizers/FaceLandmarkVisualizerObjectCreationData.cs"
+"Library/PackageCache/com.unity.mars@1.5.0/Editor/Scripts/Data/ObjectCreation/Visualizers/LightEstimationVisualizerObjectCreationData.cs"
+"Library/PackageCache/com.unity.mars@1.5.0/Editor/Scripts/Data/ObjectCreation/Visualizers/MeshVisualizerObjectCreationData.cs"
+"Library/PackageCache/com.unity.mars@1.5.0/Editor/Scripts/Data/ObjectCreation/Visualizers/PlanesVisualizerObjectCreationData.cs"
+"Library/PackageCache/com.unity.mars@1.5.0/Editor/Scripts/Data/ObjectCreation/Visualizers/PointCloudVisualizerObjectCreationData.cs"
+"Library/PackageCache/com.unity.mars@1.5.0/Editor/Scripts/Data/SharedQueryDataDrawer.cs"
+"Library/PackageCache/com.unity.mars@1.5.0/Editor/Scripts/Database/DatabaseViewer.cs"
+"Library/PackageCache/com.unity.mars@1.5.0/Editor/Scripts/Database/MARSMemoryOptionsEditor.cs"
+"Library/PackageCache/com.unity.mars@1.5.0/Editor/Scripts/Database/QueryPipelineConfigurationEditor.cs"
+"Library/PackageCache/com.unity.mars@1.5.0/Editor/Scripts/Entities/MarsComponentListEditor.cs"
+"Library/PackageCache/com.unity.mars@1.5.0/Editor/Scripts/Entities/MarsEntityEditor.cs"
+"Library/PackageCache/com.unity.mars@1.5.0/Editor/Scripts/Entities/MarsObjectCreationResources.cs"
+"Library/PackageCache/com.unity.mars@1.5.0/Editor/Scripts/Entitlement/Entitlements.cs"
+"Library/PackageCache/com.unity.mars@1.5.0/Editor/Scripts/Environment/MARSEnvironmentSettingsEditor.cs"
+"Library/PackageCache/com.unity.mars@1.5.0/Editor/Scripts/Environment/MarsEnvironmentUtils.cs"
+"Library/PackageCache/com.unity.mars@1.5.0/Editor/Scripts/Environment/PlaneExtractionSettingsEditor.cs"
+"Library/PackageCache/com.unity.mars@1.5.0/Editor/Scripts/Extensions/ApplyForcesEditor.cs"
+"Library/PackageCache/com.unity.mars@1.5.0/Editor/Scripts/Extensions/CreateMenuItems.cs"
+"Library/PackageCache/com.unity.mars@1.5.0/Editor/Scripts/Extensions/ForcesPreferences.cs"
+"Library/PackageCache/com.unity.mars@1.5.0/Editor/Scripts/Extensions/MarsDebugSettingsEditor.cs"
+"Library/PackageCache/com.unity.mars@1.5.0/Editor/Scripts/Extensions/ProxyForcesHandles.cs"
+"Library/PackageCache/com.unity.mars@1.5.0/Editor/Scripts/Extensions/ProxyForcesInspector.cs"
+"Library/PackageCache/com.unity.mars@1.5.0/Editor/Scripts/Extensions/ProxyForcesMenuItems.cs"
+"Library/PackageCache/com.unity.mars@1.5.0/Editor/Scripts/Extensions/TransformInspector.cs"
+"Library/PackageCache/com.unity.mars@1.5.0/Editor/Scripts/Human/FaceEditorUtils.cs"
+"Library/PackageCache/com.unity.mars@1.5.0/Editor/Scripts/Human/FallbackFaceEditor.cs"
+"Library/PackageCache/com.unity.mars@1.5.0/Editor/Scripts/Landmarks/CalculateLandmarksInspector.cs"
+"Library/PackageCache/com.unity.mars@1.5.0/Editor/Scripts/Landmarks/LandmarkControllerEditor.cs"
+"Library/PackageCache/com.unity.mars@1.5.0/Editor/Scripts/Modules/Editors/DataVisualsModuleOptionsEditor.cs"
+"Library/PackageCache/com.unity.mars@1.5.0/Editor/Scripts/Modules/Editors/EvaluationSchedulerModuleEditor.cs"
+"Library/PackageCache/com.unity.mars@1.5.0/Editor/Scripts/Modules/Editors/HoloLensMeshProviderOptionsEditor.cs"
+"Library/PackageCache/com.unity.mars@1.5.0/Editor/Scripts/Modules/Editors/MarsMarkerLibraryEditor.cs"
+"Library/PackageCache/com.unity.mars@1.5.0/Editor/Scripts/Modules/Editors/MarsRecordingPlaybackModuleEditor.cs"
+"Library/PackageCache/com.unity.mars@1.5.0/Editor/Scripts/Modules/Editors/MarsSceneModuleEditor.cs"
+"Library/PackageCache/com.unity.mars@1.5.0/Editor/Scripts/Modules/Editors/MarsSessionEditor.cs"
+"Library/PackageCache/com.unity.mars@1.5.0/Editor/Scripts/Modules/Editors/MarsTimeModuleEditor.cs"
+"Library/PackageCache/com.unity.mars@1.5.0/Editor/Scripts/Modules/Editors/MarsWorldScaleModuleEditor.cs"
+"Library/PackageCache/com.unity.mars@1.5.0/Editor/Scripts/Modules/Editors/PlacementOverrideEditor.cs"
+"Library/PackageCache/com.unity.mars@1.5.0/Editor/Scripts/Modules/Editors/ProxyForcesFieldSolverModuleEditor.cs"
+"Library/PackageCache/com.unity.mars@1.5.0/Editor/Scripts/Modules/Editors/QuerySimulationModuleEditor.cs"
+"Library/PackageCache/com.unity.mars@1.5.0/Editor/Scripts/Modules/Editors/ReasoningModuleEditor.cs"
+"Library/PackageCache/com.unity.mars@1.5.0/Editor/Scripts/Modules/Editors/ScaleVisualDrawer.cs"
+"Library/PackageCache/com.unity.mars@1.5.0/Editor/Scripts/Modules/Editors/SceneWatchdogModuleEditor.cs"
+"Library/PackageCache/com.unity.mars@1.5.0/Editor/Scripts/Modules/Editors/SessionRecordingSettingsEditor.cs"
+"Library/PackageCache/com.unity.mars@1.5.0/Editor/Scripts/Modules/Editors/SlowTaskModuleEditor.cs"
+"Library/PackageCache/com.unity.mars@1.5.0/Editor/Scripts/Modules/EntityVisualsModule.cs"
+"Library/PackageCache/com.unity.mars@1.5.0/Editor/Scripts/Modules/MarsEditorBackend.cs"
+"Library/PackageCache/com.unity.mars@1.5.0/Editor/Scripts/Modules/MarsEditorToolsModule.cs"
+"Library/PackageCache/com.unity.mars@1.5.0/Editor/Scripts/Modules/MarsEntityEditorModule.cs"
+"Library/PackageCache/com.unity.mars@1.5.0/Editor/Scripts/Modules/MARSEnvironmentManager.cs"
+"Library/PackageCache/com.unity.mars@1.5.0/Editor/Scripts/Modules/MARSEnvironmentManager.deprecated.cs"
+"Library/PackageCache/com.unity.mars@1.5.0/Editor/Scripts/Modules/MARSMarkerLibraryModule.cs"
+"Library/PackageCache/com.unity.mars@1.5.0/Editor/Scripts/Modules/MARSRemoteModule.cs"
+"Library/PackageCache/com.unity.mars@1.5.0/Editor/Scripts/Modules/MarsWorldScaleModule.cs"
+"Library/PackageCache/com.unity.mars@1.5.0/Editor/Scripts/Modules/MouseLabelModule.cs"
+"Library/PackageCache/com.unity.mars@1.5.0/Editor/Scripts/Modules/PingSimulatedObjectModule.cs"
+"Library/PackageCache/com.unity.mars@1.5.0/Editor/Scripts/Modules/QuerySimulationModule.cs"
+"Library/PackageCache/com.unity.mars@1.5.0/Editor/Scripts/Modules/QuerySimulationModule.deprecated.cs"
+"Library/PackageCache/com.unity.mars@1.5.0/Editor/Scripts/Modules/ScenePlacementModule.cs"
+"Library/PackageCache/com.unity.mars@1.5.0/Editor/Scripts/Modules/SceneViewInteractionModule.cs"
+"Library/PackageCache/com.unity.mars@1.5.0/Editor/Scripts/Modules/SceneWatchdogModule.cs"
+"Library/PackageCache/com.unity.mars@1.5.0/Editor/Scripts/Modules/SelectionRedirectModule.cs"
+"Library/PackageCache/com.unity.mars@1.5.0/Editor/Scripts/Modules/SimulatedDiscoveryModule.cs"
+"Library/PackageCache/com.unity.mars@1.5.0/Editor/Scripts/Modules/SimulatedObjectsManager.cs"
+"Library/PackageCache/com.unity.mars@1.5.0/Editor/Scripts/Modules/SimulationEnvironmentModeSettings.cs"
+"Library/PackageCache/com.unity.mars@1.5.0/Editor/Scripts/Modules/XRayModule.cs"
+"Library/PackageCache/com.unity.mars@1.5.0/Editor/Scripts/ObjectInterface/ProxyGroupInspector.cs"
+"Library/PackageCache/com.unity.mars@1.5.0/Editor/Scripts/ObjectInterface/ReplicatorInspector.cs"
+"Library/PackageCache/com.unity.mars@1.5.0/Editor/Scripts/Panels/MarsObjectCreationPanel.cs"
+"Library/PackageCache/com.unity.mars@1.5.0/Editor/Scripts/Panels/MarsPanel.cs"
+"Library/PackageCache/com.unity.mars@1.5.0/Editor/Scripts/Panels/PanelOrderAttribute.cs"
+"Library/PackageCache/com.unity.mars@1.5.0/Editor/Scripts/Panels/PanelOrders.cs"
+"Library/PackageCache/com.unity.mars@1.5.0/Editor/Scripts/Panels/PanelView.cs"
+"Library/PackageCache/com.unity.mars@1.5.0/Editor/Scripts/Panels/ScenePlacementPanel.cs"
+"Library/PackageCache/com.unity.mars@1.5.0/Editor/Scripts/Panels/SinglePanelWindow.cs"
+"Library/PackageCache/com.unity.mars@1.5.0/Editor/Scripts/Providers/GeoLocationModuleEditor.cs"
+"Library/PackageCache/com.unity.mars@1.5.0/Editor/Scripts/Providers/GeoLocationShortcutButtons.cs"
+"Library/PackageCache/com.unity.mars@1.5.0/Editor/Scripts/Rendering/MarsSrpUtilities.cs"
+"Library/PackageCache/com.unity.mars@1.5.0/Editor/Scripts/Rendering/MarsUrpUtilities.cs"
+"Library/PackageCache/com.unity.mars@1.5.0/Editor/Scripts/SessionRecording/MarsRecordingPlaybackModule.cs"
+"Library/PackageCache/com.unity.mars@1.5.0/Editor/Scripts/SessionRecording/SessionRecordingInfoEditor.cs"
+"Library/PackageCache/com.unity.mars@1.5.0/Editor/Scripts/SessionRecording/SessionRecordingUtils.cs"
+"Library/PackageCache/com.unity.mars@1.5.0/Editor/Scripts/SessionRecording/SimulationRecordingManager.cs"
+"Library/PackageCache/com.unity.mars@1.5.0/Editor/Scripts/SettingsProviders/MarsDebugSettingsProvider.cs"
+"Library/PackageCache/com.unity.mars@1.5.0/Editor/Scripts/SettingsProviders/MarsEditorVisualsSettingsProvider.cs"
+"Library/PackageCache/com.unity.mars@1.5.0/Editor/Scripts/SettingsProviders/MarsPreferencesProvider.cs"
+"Library/PackageCache/com.unity.mars@1.5.0/Editor/Scripts/SettingsProviders/MarsProjectValidationSettingsProvider.cs"
+"Library/PackageCache/com.unity.mars@1.5.0/Editor/Scripts/SettingsProviders/MarsRuntimeSettingsProvider.cs"
+"Library/PackageCache/com.unity.mars@1.5.0/Editor/Scripts/SettingsProviders/MarsSceneTrackingSettingsProvider.cs"
+"Library/PackageCache/com.unity.mars@1.5.0/Editor/Scripts/SettingsProviders/MarsSimulationSettingsProvider.cs"
+"Library/PackageCache/com.unity.mars@1.5.0/Editor/Scripts/Simulation/BakedLitGUI.cs"
+"Library/PackageCache/com.unity.mars@1.5.0/Editor/Scripts/Simulation/BaseShaderGUI.cs"
+"Library/PackageCache/com.unity.mars@1.5.0/Editor/Scripts/Simulation/CompositeRenderContext.cs"
+"Library/PackageCache/com.unity.mars@1.5.0/Editor/Scripts/Simulation/CompositeRenderContext.Deprecated.cs"
+"Library/PackageCache/com.unity.mars@1.5.0/Editor/Scripts/Simulation/CompositeRenderEditorUtils.cs"
+"Library/PackageCache/com.unity.mars@1.5.0/Editor/Scripts/Simulation/CompositeRenderModule.cs"
+"Library/PackageCache/com.unity.mars@1.5.0/Editor/Scripts/Simulation/CompositeRenderModule.Deprecated.cs"
+"Library/PackageCache/com.unity.mars@1.5.0/Editor/Scripts/Simulation/CompositeRenderModuleOptions.cs"
+"Library/PackageCache/com.unity.mars@1.5.0/Editor/Scripts/Simulation/CompositeRenderModuleOptionsEditor.cs"
+"Library/PackageCache/com.unity.mars@1.5.0/Editor/Scripts/Simulation/ContentHierarchyPanel.cs"
+"Library/PackageCache/com.unity.mars@1.5.0/Editor/Scripts/Simulation/EnvironmentHierarchyPanel.cs"
+"Library/PackageCache/com.unity.mars@1.5.0/Editor/Scripts/Simulation/HierarchyPanel.cs"
+"Library/PackageCache/com.unity.mars@1.5.0/Editor/Scripts/Simulation/HierarchyTreeView.cs"
+"Library/PackageCache/com.unity.mars@1.5.0/Editor/Scripts/Simulation/ICompositeView.cs"
+"Library/PackageCache/com.unity.mars@1.5.0/Editor/Scripts/Simulation/ICompositeView.Deprecated.cs"
+"Library/PackageCache/com.unity.mars@1.5.0/Editor/Scripts/Simulation/ISimulationView.cs"
+"Library/PackageCache/com.unity.mars@1.5.0/Editor/Scripts/Simulation/LitGUI.cs"
+"Library/PackageCache/com.unity.mars@1.5.0/Editor/Scripts/Simulation/MarsAssetManager.cs"
+"Library/PackageCache/com.unity.mars@1.5.0/Editor/Scripts/Simulation/MarsAssetPostprocessor.cs"
+"Library/PackageCache/com.unity.mars@1.5.0/Editor/Scripts/Simulation/MarsEnvironmentManagerEditor.cs"
+"Library/PackageCache/com.unity.mars@1.5.0/Editor/Scripts/Simulation/MarsMaterialInspector.cs"
+"Library/PackageCache/com.unity.mars@1.5.0/Editor/Scripts/Simulation/MarsParticleMaterialInspector.cs"
+"Library/PackageCache/com.unity.mars@1.5.0/Editor/Scripts/Simulation/MiniSimulationView.cs"
+"Library/PackageCache/com.unity.mars@1.5.0/Editor/Scripts/Simulation/MiniSimulationView.Deprecated.cs"
+"Library/PackageCache/com.unity.mars@1.5.0/Editor/Scripts/Simulation/ParticleGUI.cs"
+"Library/PackageCache/com.unity.mars@1.5.0/Editor/Scripts/Simulation/PlaneGenerationModule.cs"
+"Library/PackageCache/com.unity.mars@1.5.0/Editor/Scripts/Simulation/PlanesExtraction/ExtractedPlaneData.cs"
+"Library/PackageCache/com.unity.mars@1.5.0/Editor/Scripts/Simulation/PlanesExtraction/PlaneExtractionVoxelGrid.cs"
+"Library/PackageCache/com.unity.mars@1.5.0/Editor/Scripts/Simulation/PlanesExtraction/PlanesExtractionManager.cs"
+"Library/PackageCache/com.unity.mars@1.5.0/Editor/Scripts/Simulation/SimulatedMeshingSettingsEditor.cs"
+"Library/PackageCache/com.unity.mars@1.5.0/Editor/Scripts/Simulation/SimulationContext.cs"
+"Library/PackageCache/com.unity.mars@1.5.0/Editor/Scripts/Simulation/SimulationControlsGUI.cs"
+"Library/PackageCache/com.unity.mars@1.5.0/Editor/Scripts/Simulation/SimulationControlsGUI.deprecated.cs"
+"Library/PackageCache/com.unity.mars@1.5.0/Editor/Scripts/Simulation/SimulationDeviceViewOptionsWindow.cs"
+"Library/PackageCache/com.unity.mars@1.5.0/Editor/Scripts/Simulation/SimulationEnvironmentSettingsEditor.cs"
+"Library/PackageCache/com.unity.mars@1.5.0/Editor/Scripts/Simulation/SimulationHandleUtility.cs"
+"Library/PackageCache/com.unity.mars@1.5.0/Editor/Scripts/Simulation/SimulationSceneModule.cs"
+"Library/PackageCache/com.unity.mars@1.5.0/Editor/Scripts/Simulation/SimulationSceneModule.SimulationScene.cs"
+"Library/PackageCache/com.unity.mars@1.5.0/Editor/Scripts/Simulation/SimulationSceneUsers.cs"
+"Library/PackageCache/com.unity.mars@1.5.0/Editor/Scripts/Simulation/SimulationSettings.cs"
+"Library/PackageCache/com.unity.mars@1.5.0/Editor/Scripts/Simulation/SimulationSettingsEditor.cs"
+"Library/PackageCache/com.unity.mars@1.5.0/Editor/Scripts/Simulation/SimulationTestRunner.cs"
+"Library/PackageCache/com.unity.mars@1.5.0/Editor/Scripts/Simulation/SimulationVideoContextSettingsEditor.cs"
+"Library/PackageCache/com.unity.mars@1.5.0/Editor/Scripts/Simulation/SimulationView.cs"
+"Library/PackageCache/com.unity.mars@1.5.0/Editor/Scripts/Simulation/SimulationView.deprecated.cs"
+"Library/PackageCache/com.unity.mars@1.5.0/Editor/Scripts/Simulation/SimulationViewDisplayOptionsWindow.cs"
+"Library/PackageCache/com.unity.mars@1.5.0/Editor/Scripts/Simulation/UI/EnvironmentControls.cs"
+"Library/PackageCache/com.unity.mars@1.5.0/Editor/Scripts/Simulation/UI/EnvironmentControlsWindow.cs"
+"Library/PackageCache/com.unity.mars@1.5.0/Editor/Scripts/Simulation/UI/SimulationEnvironmentField.cs"
+"Library/PackageCache/com.unity.mars@1.5.0/Editor/Scripts/Simulation/UI/SimulationModeField.cs"
+"Library/PackageCache/com.unity.mars@1.5.0/Editor/Scripts/SynthesizedObject/Inspectors/MarkerDefinitionSelectorDrawer.cs"
+"Library/PackageCache/com.unity.mars@1.5.0/Editor/Scripts/SynthesizedObject/Inspectors/SynthesizedBodyInspector.cs"
+"Library/PackageCache/com.unity.mars@1.5.0/Editor/Scripts/SynthesizedObject/Inspectors/SynthesizedMarkerIdInspector.cs"
+"Library/PackageCache/com.unity.mars@1.5.0/Editor/Scripts/SynthesizedObject/SynthesizedPlaneEditor.cs"
+"Library/PackageCache/com.unity.mars@1.5.0/Editor/Scripts/Templates/TemplateCollection.cs"
+"Library/PackageCache/com.unity.mars@1.5.0/Editor/Scripts/Templates/TemplatesWindow.cs"
+"Library/PackageCache/com.unity.mars@1.5.0/Editor/Scripts/UI/MarsPopupField.cs"
+"Library/PackageCache/com.unity.mars@1.5.0/Editor/Scripts/Utils/CameraPermissionUtils.cs"
+"Library/PackageCache/com.unity.mars@1.5.0/Editor/Scripts/Utils/EditorSlowTask.cs"
+"Library/PackageCache/com.unity.mars@1.5.0/Editor/Scripts/Utils/ImageMarkerEditorUtils.cs"
+"Library/PackageCache/com.unity.mars@1.5.0/Editor/Scripts/Utils/MarsEditorUtils.cs"
+"Library/PackageCache/com.unity.mars@1.5.0/Editor/Scripts/Utils/MarsObjectCreation.cs"
+"Library/PackageCache/com.unity.mars@1.5.0/Editor/Scripts/Utils/PackageVersionWatcher.cs"
+"Library/PackageCache/com.unity.mars@1.5.0/Editor/Scripts/Utils/RatingDrawers/ConditionRatingCurveDrawer.cs"
+"Library/PackageCache/com.unity.mars@1.5.0/Editor/Scripts/Utils/RatingDrawers/DistanceRatingCurveDrawer.cs"
+"Library/PackageCache/com.unity.mars@1.5.0/Editor/Scripts/Utils/RatingDrawers/ElevationRatingCurveDrawer.cs"
+"Library/PackageCache/com.unity.mars@1.5.0/Editor/Scripts/Utils/RatingDrawers/PlaneSizeRatingCurveDrawer.cs"
+"Library/PackageCache/com.unity.mars@1.5.0/Editor/Scripts/Utils/RatingDrawers/RatingCurveDrawer.cs"
+"Library/PackageCache/com.unity.mars@1.5.0/Editor/Scripts/Visualizers/MarsLightEstimationVisualizerInspector.cs"
+"Library/PackageCache/com.unity.mars@1.5.0/Editor/Scripts/XRay/XRayOptions.cs"
+"Library/PackageCache/com.unity.mars@1.5.0/Editor/Scripts/XRay/XRayOptionsEditor.cs"
+-langversion:9.0
+
+/deterministic
+/optimize+
+/debug:portable
+/nologo
+/RuntimeMetadataVersion:v4.0.30319
+
+/nowarn:0169
+/nowarn:0649
+/nowarn:1701
+/nowarn:1702
+/utf8output
+/preferreduilang:en-US
+-warn:0
+
+/additionalfile:"Library/Bee/artifacts/1900b0aE.dag/Unity.MARS.Editor.AdditionalFile.txt"

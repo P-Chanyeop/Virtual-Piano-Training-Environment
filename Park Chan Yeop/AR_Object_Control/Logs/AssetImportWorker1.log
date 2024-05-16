@@ -11,13 +11,13 @@ C:\Program Files\Unity\Hub\Editor\2021.3.37f1\Editor\Unity.exe
 -name
 AssetImportWorker1
 -projectPath
-C:/Github/Virtual-Piano-Training-Environment/Park Chan Yeop/My project (1)
+C:/Github/Virtual-Piano-Training-Environment/Park Chan Yeop/AR_Object_Control
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-59575
-Successfully changed project path to: C:/Github/Virtual-Piano-Training-Environment/Park Chan Yeop/My project (1)
-C:/Github/Virtual-Piano-Training-Environment/Park Chan Yeop/My project (1)
+56852
+Successfully changed project path to: C:/Github/Virtual-Piano-Training-Environment/Park Chan Yeop/AR_Object_Control
+C:/Github/Virtual-Piano-Training-Environment/Park Chan Yeop/AR_Object_Control
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -47,16 +47,16 @@ C:/Github/Virtual-Piano-Training-Environment/Park Chan Yeop/My project (1)
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [15296] Host "[IP] 192.168.200.137 [Port] 0 [Flags] 2 [Guid] 3794166651 [EditorId] 3794166651 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-RIJCT46) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [13484] Host "[IP] 192.168.200.183 [Port] 0 [Flags] 2 [Guid] 201988179 [EditorId] 201988179 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-RIJCT46) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [15296] Host "[IP] 192.168.200.137 [Port] 0 [Flags] 2 [Guid] 3794166651 [EditorId] 3794166651 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-RIJCT46) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [13484] Host "[IP] 192.168.200.183 [Port] 0 [Flags] 2 [Guid] 201988179 [EditorId] 201988179 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-RIJCT46) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
 [Physics::Module] Initialized MultithreadedJobDispatcher with {0} workers.
-Refreshing native plugins compatible for Editor in 45.48 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 96.95 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.37f1 (3b6005ad5ad6)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.37f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Github/Virtual-Piano-Training-Environment/Park Chan Yeop/My project (1)/Assets
+[Subsystems] Discovering subsystems at path C:/Github/Virtual-Piano-Training-Environment/Park Chan Yeop/AR_Object_Control/Assets
 GfxDevice: creating device client; threaded=0; jobified=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
@@ -68,273 +68,113 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.37f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.37f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.37f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56020
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56976
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.37f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.37f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.008859 seconds.
+Registered in 0.010049 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 153 ms
-Refreshing native plugins compatible for Editor in 40.76 ms, found 3 plugins.
+Android Extension - Scanning For ADB Devices 180 ms
+Refreshing native plugins compatible for Editor in 94.57 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.648 seconds
+- Completed reload, in  0.881 seconds
 Domain Reload Profiling:
-	ReloadAssembly (649ms)
-		BeginReloadAssembly (84ms)
+	ReloadAssembly (882ms)
+		BeginReloadAssembly (117ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (0ms)
-		EndReloadAssembly (489ms)
-			LoadAssemblies (80ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (670ms)
+			LoadAssemblies (113ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (68ms)
+			SetupTypeCache (108ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (17ms)
-			SetupLoadedEditorAssemblies (373ms)
+			RebuildScriptCaches (21ms)
+			SetupLoadedEditorAssemblies (500ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (244ms)
+				InitializePlatformSupportModulesInManaged (290ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (41ms)
+				RefreshPlugins (95ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (59ms)
-				ProcessInitializeOnLoadMethodAttributes (29ms)
+				ProcessInitializeOnLoadAttributes (71ms)
+				ProcessInitializeOnLoadMethodAttributes (43ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.005030 seconds.
+Registered in 0.015577 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 0.36 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 91.51 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Package Manager log level set to [2]
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Cannot connect to Unity Package Manager local server
 System.Exception: Error! Visual Scripting: couldn't find visual scripting package
-  at Unity.VisualScripting.PackageVersionUtility.get_version () [0x00043] in C:\Github\Virtual-Piano-Training-Environment\Park Chan Yeop\My project (1)\Library\PackageCache\com.unity.visualscripting@1.9.2\Editor\VisualScripting.Core\Utilities\PackageVersionUtility.cs:31 
-  at Unity.VisualScripting.BoltCoreManifest.get_version () [0x00000] in C:\Github\Virtual-Piano-Training-Environment\Park Chan Yeop\My project (1)\Library\PackageCache\com.unity.visualscripting@1.9.2\Editor\VisualScripting.Core\Plugin\BoltCoreManifest.cs:11 
-  at Unity.VisualScripting.PluginManifest.get_currentVersion () [0x00000] in C:\Github\Virtual-Piano-Training-Environment\Park Chan Yeop\My project (1)\Library\PackageCache\com.unity.visualscripting@1.9.2\Editor\VisualScripting.Core\Plugins\PluginManifest.cs:33 
-  at Unity.VisualScripting.PluginManifest.get_versionMismatch () [0x00000] in C:\Github\Virtual-Piano-Training-Environment\Park Chan Yeop\My project (1)\Library\PackageCache\com.unity.visualscripting@1.9.2\Editor\VisualScripting.Core\Plugins\PluginManifest.cs:48 
-  at Unity.VisualScripting.PluginContainer.Initialize () [0x00525] in C:\Github\Virtual-Piano-Training-Environment\Park Chan Yeop\My project (1)\Library\PackageCache\com.unity.visualscripting@1.9.2\Editor\VisualScripting.Core\Plugins\PluginContainer.cs:208 
-  at Unity.VisualScripting.PluginContainer.InitializeOnLoad () [0x00009] in C:\Github\Virtual-Piano-Training-Environment\Park Chan Yeop\My project (1)\Library\PackageCache\com.unity.visualscripting@1.9.2\Editor\VisualScripting.Core\Plugins\PluginContainer.cs:32 
-  at Unity.VisualScripting.VSUsageUtility.DoInitializeOnLoadCalls () [0x00034] in C:\Github\Virtual-Piano-Training-Environment\Park Chan Yeop\My project (1)\Library\PackageCache\com.unity.visualscripting@1.9.2\Editor\VisualScripting.Core\Utilities\VSUsageUtility.cs:76 
-  at Unity.VisualScripting.VSUsageUtility.set_isVisualScriptingUsed (System.Boolean value) [0x0002c] in C:\Github\Virtual-Piano-Training-Environment\Park Chan Yeop\My project (1)\Library\PackageCache\com.unity.visualscripting@1.9.2\Editor\VisualScripting.Core\Utilities\VSUsageUtility.cs:114 
-  at Unity.VisualScripting.VSUsageUtility.CheckAndSetIsVisualScriptingUsed () [0x00032] in C:\Github\Virtual-Piano-Training-Environment\Park Chan Yeop\My project (1)\Library\PackageCache\com.unity.visualscripting@1.9.2\Editor\VisualScripting.Core\Utilities\VSUsageUtility.cs:48 
-  at Unity.VisualScripting.VSUsageUtility..cctor () [0x00000] in C:\Github\Virtual-Piano-Training-Environment\Park Chan Yeop\My project (1)\Library\PackageCache\com.unity.visualscripting@1.9.2\Editor\VisualScripting.Core\Utilities\VSUsageUtility.cs:22 
+  at Unity.VisualScripting.PackageVersionUtility.get_version () [0x00043] in C:\Github\Virtual-Piano-Training-Environment\Park Chan Yeop\AR_Object_Control\Library\PackageCache\com.unity.visualscripting@1.9.2\Editor\VisualScripting.Core\Utilities\PackageVersionUtility.cs:31 
+  at Unity.VisualScripting.BoltCoreManifest.get_version () [0x00000] in C:\Github\Virtual-Piano-Training-Environment\Park Chan Yeop\AR_Object_Control\Library\PackageCache\com.unity.visualscripting@1.9.2\Editor\VisualScripting.Core\Plugin\BoltCoreManifest.cs:11 
+  at Unity.VisualScripting.PluginManifest.get_currentVersion () [0x00000] in C:\Github\Virtual-Piano-Training-Environment\Park Chan Yeop\AR_Object_Control\Library\PackageCache\com.unity.visualscripting@1.9.2\Editor\VisualScripting.Core\Plugins\PluginManifest.cs:33 
+  at Unity.VisualScripting.PluginManifest.get_versionMismatch () [0x00000] in C:\Github\Virtual-Piano-Training-Environment\Park Chan Yeop\AR_Object_Control\Library\PackageCache\com.unity.visualscripting@1.9.2\Editor\VisualScripting.Core\Plugins\PluginManifest.cs:48 
+  at Unity.VisualScripting.PluginContainer.Initialize () [0x00525] in C:\Github\Virtual-Piano-Training-Environment\Park Chan Yeop\AR_Object_Control\Library\PackageCache\com.unity.visualscripting@1.9.2\Editor\VisualScripting.Core\Plugins\PluginContainer.cs:208 
+  at Unity.VisualScripting.PluginContainer.InitializeOnLoad () [0x00009] in C:\Github\Virtual-Piano-Training-Environment\Park Chan Yeop\AR_Object_Control\Library\PackageCache\com.unity.visualscripting@1.9.2\Editor\VisualScripting.Core\Plugins\PluginContainer.cs:32 
+  at Unity.VisualScripting.VSUsageUtility.DoInitializeOnLoadCalls () [0x00034] in C:\Github\Virtual-Piano-Training-Environment\Park Chan Yeop\AR_Object_Control\Library\PackageCache\com.unity.visualscripting@1.9.2\Editor\VisualScripting.Core\Utilities\VSUsageUtility.cs:76 
+  at Unity.VisualScripting.VSUsageUtility.set_isVisualScriptingUsed (System.Boolean value) [0x0002c] in C:\Github\Virtual-Piano-Training-Environment\Park Chan Yeop\AR_Object_Control\Library\PackageCache\com.unity.visualscripting@1.9.2\Editor\VisualScripting.Core\Utilities\VSUsageUtility.cs:114 
+  at Unity.VisualScripting.VSUsageUtility.CheckAndSetIsVisualScriptingUsed () [0x00032] in C:\Github\Virtual-Piano-Training-Environment\Park Chan Yeop\AR_Object_Control\Library\PackageCache\com.unity.visualscripting@1.9.2\Editor\VisualScripting.Core\Utilities\VSUsageUtility.cs:48 
+  at Unity.VisualScripting.VSUsageUtility..cctor () [0x00000] in C:\Github\Virtual-Piano-Training-Environment\Park Chan Yeop\AR_Object_Control\Library\PackageCache\com.unity.visualscripting@1.9.2\Editor\VisualScripting.Core\Utilities\VSUsageUtility.cs:22 
 UnityEngine.StackTraceUtility:ExtractStackTrace ()
 UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
 UnityEngine.Logger:Log (UnityEngine.LogType,object)
 UnityEngine.Debug:LogError (object)
 UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
 
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Completed reload, in  1.322 seconds
+- Completed reload, in  2.401 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1322ms)
-		BeginReloadAssembly (116ms)
+	ReloadAssembly (2402ms)
+		BeginReloadAssembly (120ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (13ms)
-		EndReloadAssembly (1120ms)
-			LoadAssemblies (104ms)
+		EndReloadAssembly (2182ms)
+			LoadAssemblies (152ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (166ms)
-			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (31ms)
-			SetupLoadedEditorAssemblies (828ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (16ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (73ms)
-				ProcessInitializeOnLoadAttributes (715ms)
-				ProcessInitializeOnLoadMethodAttributes (12ms)
-				AfterProcessingInitializeOnLoad (10ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (4ms)
-Platform modules already initialized, skipping
-========================================================================
-Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
-Refreshing native plugins compatible for Editor in 0.39 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3454 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 26 unused Assets / (66.3 KB). Loaded Objects now: 3918.
-Memory consumption went from 125.7 MB to 125.7 MB.
-Total: 7.936800 ms (FindLiveObjects: 0.179900 ms CreateObjectMapping: 0.079100 ms MarkObjects: 7.603700 ms  DeleteObjects: 0.073000 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:CustomObjectIndexerAttribute: bc11b3a6c3213fcdd17b65e7da85e133 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.005306 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 0.38 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Cannot connect to Unity Package Manager local server
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Cannot connect to Unity Package Manager local server
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Cannot connect to Unity Package Manager local server
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Cannot connect to Unity Package Manager local server
-System.Exception: Error! Visual Scripting: couldn't find visual scripting package
-  at Unity.VisualScripting.PackageVersionUtility.get_version () [0x00043] in C:\Github\Virtual-Piano-Training-Environment\Park Chan Yeop\My project (1)\Library\PackageCache\com.unity.visualscripting@1.9.2\Editor\VisualScripting.Core\Utilities\PackageVersionUtility.cs:31 
-  at Unity.VisualScripting.BoltCoreManifest.get_version () [0x00000] in C:\Github\Virtual-Piano-Training-Environment\Park Chan Yeop\My project (1)\Library\PackageCache\com.unity.visualscripting@1.9.2\Editor\VisualScripting.Core\Plugin\BoltCoreManifest.cs:11 
-  at Unity.VisualScripting.PluginManifest.get_currentVersion () [0x00000] in C:\Github\Virtual-Piano-Training-Environment\Park Chan Yeop\My project (1)\Library\PackageCache\com.unity.visualscripting@1.9.2\Editor\VisualScripting.Core\Plugins\PluginManifest.cs:33 
-  at Unity.VisualScripting.PluginManifest.get_versionMismatch () [0x00000] in C:\Github\Virtual-Piano-Training-Environment\Park Chan Yeop\My project (1)\Library\PackageCache\com.unity.visualscripting@1.9.2\Editor\VisualScripting.Core\Plugins\PluginManifest.cs:48 
-  at Unity.VisualScripting.PluginContainer.Initialize () [0x00525] in C:\Github\Virtual-Piano-Training-Environment\Park Chan Yeop\My project (1)\Library\PackageCache\com.unity.visualscripting@1.9.2\Editor\VisualScripting.Core\Plugins\PluginContainer.cs:208 
-  at Unity.VisualScripting.PluginContainer.InitializeOnLoad () [0x00009] in C:\Github\Virtual-Piano-Training-Environment\Park Chan Yeop\My project (1)\Library\PackageCache\com.unity.visualscripting@1.9.2\Editor\VisualScripting.Core\Plugins\PluginContainer.cs:32 
-  at Unity.VisualScripting.VSUsageUtility.DoInitializeOnLoadCalls () [0x00034] in C:\Github\Virtual-Piano-Training-Environment\Park Chan Yeop\My project (1)\Library\PackageCache\com.unity.visualscripting@1.9.2\Editor\VisualScripting.Core\Utilities\VSUsageUtility.cs:76 
-  at Unity.VisualScripting.VSUsageUtility.set_isVisualScriptingUsed (System.Boolean value) [0x0002c] in C:\Github\Virtual-Piano-Training-Environment\Park Chan Yeop\My project (1)\Library\PackageCache\com.unity.visualscripting@1.9.2\Editor\VisualScripting.Core\Utilities\VSUsageUtility.cs:114 
-  at Unity.VisualScripting.VSUsageUtility.CheckAndSetIsVisualScriptingUsed () [0x0000d] in C:\Github\Virtual-Piano-Training-Environment\Park Chan Yeop\My project (1)\Library\PackageCache\com.unity.visualscripting@1.9.2\Editor\VisualScripting.Core\Utilities\VSUsageUtility.cs:33 
-  at Unity.VisualScripting.VSUsageUtility..cctor () [0x00000] in C:\Github\Virtual-Piano-Training-Environment\Park Chan Yeop\My project (1)\Library\PackageCache\com.unity.visualscripting@1.9.2\Editor\VisualScripting.Core\Utilities\VSUsageUtility.cs:22 
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogError (object)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-Mono: successfully reloaded assembly
-- Completed reload, in  1.301 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1302ms)
-		BeginReloadAssembly (150ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (3ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (29ms)
-		EndReloadAssembly (1071ms)
-			LoadAssemblies (105ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (159ms)
+			SetupTypeCache (385ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (24ms)
-			SetupLoadedEditorAssemblies (692ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (16ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (58ms)
-				ProcessInitializeOnLoadAttributes (592ms)
-				ProcessInitializeOnLoadMethodAttributes (13ms)
-				AfterProcessingInitializeOnLoad (13ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (5ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.39 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3442 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 21 unused Assets / (39.6 KB). Loaded Objects now: 3923.
-Memory consumption went from 125.7 MB to 125.6 MB.
-Total: 6.766600 ms (FindLiveObjects: 0.160800 ms CreateObjectMapping: 0.074300 ms MarkObjects: 6.495500 ms  DeleteObjects: 0.035500 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:CustomObjectIndexerAttribute: bc11b3a6c3213fcdd17b65e7da85e133 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004389 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 0.41 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Cannot connect to Unity Package Manager local server
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Cannot connect to Unity Package Manager local server
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Cannot connect to Unity Package Manager local server
-System.Exception: Error! Visual Scripting: couldn't find visual scripting package
-  at Unity.VisualScripting.PackageVersionUtility.get_version () [0x00043] in C:\Github\Virtual-Piano-Training-Environment\Park Chan Yeop\My project (1)\Library\PackageCache\com.unity.visualscripting@1.9.2\Editor\VisualScripting.Core\Utilities\PackageVersionUtility.cs:31 
-  at Unity.VisualScripting.BoltCoreManifest.get_version () [0x00000] in C:\Github\Virtual-Piano-Training-Environment\Park Chan Yeop\My project (1)\Library\PackageCache\com.unity.visualscripting@1.9.2\Editor\VisualScripting.Core\Plugin\BoltCoreManifest.cs:11 
-  at Unity.VisualScripting.PluginManifest.get_currentVersion () [0x00000] in C:\Github\Virtual-Piano-Training-Environment\Park Chan Yeop\My project (1)\Library\PackageCache\com.unity.visualscripting@1.9.2\Editor\VisualScripting.Core\Plugins\PluginManifest.cs:33 
-  at Unity.VisualScripting.PluginManifest.get_versionMismatch () [0x00000] in C:\Github\Virtual-Piano-Training-Environment\Park Chan Yeop\My project (1)\Library\PackageCache\com.unity.visualscripting@1.9.2\Editor\VisualScripting.Core\Plugins\PluginManifest.cs:48 
-  at Unity.VisualScripting.PluginContainer.Initialize () [0x00525] in C:\Github\Virtual-Piano-Training-Environment\Park Chan Yeop\My project (1)\Library\PackageCache\com.unity.visualscripting@1.9.2\Editor\VisualScripting.Core\Plugins\PluginContainer.cs:208 
-  at Unity.VisualScripting.PluginContainer.InitializeOnLoad () [0x00009] in C:\Github\Virtual-Piano-Training-Environment\Park Chan Yeop\My project (1)\Library\PackageCache\com.unity.visualscripting@1.9.2\Editor\VisualScripting.Core\Plugins\PluginContainer.cs:32 
-  at Unity.VisualScripting.VSUsageUtility.DoInitializeOnLoadCalls () [0x00034] in C:\Github\Virtual-Piano-Training-Environment\Park Chan Yeop\My project (1)\Library\PackageCache\com.unity.visualscripting@1.9.2\Editor\VisualScripting.Core\Utilities\VSUsageUtility.cs:76 
-  at Unity.VisualScripting.VSUsageUtility.set_isVisualScriptingUsed (System.Boolean value) [0x0002c] in C:\Github\Virtual-Piano-Training-Environment\Park Chan Yeop\My project (1)\Library\PackageCache\com.unity.visualscripting@1.9.2\Editor\VisualScripting.Core\Utilities\VSUsageUtility.cs:114 
-  at Unity.VisualScripting.VSUsageUtility.CheckAndSetIsVisualScriptingUsed () [0x0000d] in C:\Github\Virtual-Piano-Training-Environment\Park Chan Yeop\My project (1)\Library\PackageCache\com.unity.visualscripting@1.9.2\Editor\VisualScripting.Core\Utilities\VSUsageUtility.cs:33 
-  at Unity.VisualScripting.VSUsageUtility..cctor () [0x00000] in C:\Github\Virtual-Piano-Training-Environment\Park Chan Yeop\My project (1)\Library\PackageCache\com.unity.visualscripting@1.9.2\Editor\VisualScripting.Core\Utilities\VSUsageUtility.cs:22 
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogError (object)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-Mono: successfully reloaded assembly
-- Completed reload, in  1.343 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1344ms)
-		BeginReloadAssembly (151ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (30ms)
-		EndReloadAssembly (1111ms)
-			LoadAssemblies (106ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (180ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (26ms)
-			SetupLoadedEditorAssemblies (692ms)
+			RebuildScriptCaches (61ms)
+			SetupLoadedEditorAssemblies (1561ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (17ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (58ms)
-				ProcessInitializeOnLoadAttributes (589ms)
-				ProcessInitializeOnLoadMethodAttributes (13ms)
-				AfterProcessingInitializeOnLoad (13ms)
+				RefreshPlugins (92ms)
+				BeforeProcessingInitializeOnLoad (149ms)
+				ProcessInitializeOnLoadAttributes (1219ms)
+				ProcessInitializeOnLoadMethodAttributes (73ms)
+				AfterProcessingInitializeOnLoad (11ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (5ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.34 ms, found 3 plugins.
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 1.67 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3442 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 21 unused Assets / (39.6 KB). Loaded Objects now: 3928.
-Memory consumption went from 125.7 MB to 125.7 MB.
-Total: 7.013000 ms (FindLiveObjects: 0.169000 ms CreateObjectMapping: 0.130500 ms MarkObjects: 6.667800 ms  DeleteObjects: 0.044500 ms)
+Unloading 6257 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 65 unused Assets / (1.2 MB). Loaded Objects now: 6695.
+Memory consumption went from 242.9 MB to 241.8 MB.
+Total: 10.618900 ms (FindLiveObjects: 0.386400 ms CreateObjectMapping: 0.234700 ms MarkObjects: 9.556000 ms  DeleteObjects: 0.440100 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -348,3 +188,127 @@ AssetImportParameters requested are different than current active one (requested
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 350430.070894 seconds.
+  path: Packages/com.unity.postprocessing/PostProcessing/Shaders/Builtins/GaussianDownsample.compute
+  artifactKey: Guid(6dba4103d23a7904fbc49099355aff3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Packages/com.unity.postprocessing/PostProcessing/Shaders/Builtins/GaussianDownsample.compute using Guid(6dba4103d23a7904fbc49099355aff3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1743bbc08b3460b5b7bd9afb26a343ba') in 0.024363 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 48.973674 seconds.
+  path: Assets/VRUIP/Prefabs/3D UI/3D Button/Square Button.prefab
+  artifactKey: Guid(650175115e34848338b729a0faae6c30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/VRUIP/Prefabs/3D UI/3D Button/Square Button.prefab using Guid(650175115e34848338b729a0faae6c30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4d6e68f93a62a9f3fd4e22aa0d267b3') in 0.054391 seconds 
+Number of asset objects unloaded after import = 22
+========================================================================
+Received Import Request.
+  Time since last request: 1.881368 seconds.
+  path: Assets/VRUIP/Prefabs/3D UI/Collections/Collection_Highlight.prefab
+  artifactKey: Guid(af5e10846a0a077439c8bb2929a109ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/VRUIP/Prefabs/3D UI/Collections/Collection_Highlight.prefab using Guid(af5e10846a0a077439c8bb2929a109ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bce3eb6c1f020d030b297f7c4a3ce1b5') in 0.002884 seconds 
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/VRUIP/Prefabs/3D UI/Collections/Collection_Rotating.prefab
+  artifactKey: Guid(f5485ae3468693c4a8a1c779fee75537) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/VRUIP/Prefabs/3D UI/Collections/Collection_Rotating.prefab using Guid(f5485ae3468693c4a8a1c779fee75537) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01021abd2a5e227cf9b33b8fa5837e79') in 0.003299 seconds 
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.793061 seconds.
+  path: Assets/VRUIP/Prefabs/3D UI/Elements/Element_Highlight_Rotating.prefab
+  artifactKey: Guid(d967a835f5d1e2b488c8bb9521d4fc34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/VRUIP/Prefabs/3D UI/Elements/Element_Highlight_Rotating.prefab using Guid(d967a835f5d1e2b488c8bb9521d4fc34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be4808a6eaa5a7491741db006f9af55a') in 0.030693 seconds 
+Number of asset objects unloaded after import = 30
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/VRUIP/Prefabs/3D UI/Elements/Element_Rotating.prefab
+  artifactKey: Guid(4afa73cc6c99f1644a4d464e77c23c94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/VRUIP/Prefabs/3D UI/Elements/Element_Rotating.prefab using Guid(4afa73cc6c99f1644a4d464e77c23c94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2dfbb01a75e6076b26bb9fe6b1b47049') in 0.026643 seconds 
+Number of asset objects unloaded after import = 35
+========================================================================
+Received Import Request.
+  Time since last request: 11.315392 seconds.
+  path: Assets/VRUIP/Package Files/Materials/Camera_Screen.mat
+  artifactKey: Guid(b1f427931a6fbc1409921934c3cb5f64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/VRUIP/Package Files/Materials/Camera_Screen.mat using Guid(b1f427931a6fbc1409921934c3cb5f64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f23f4cfc767986cd8007f53ab672fcce') in 0.045150 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/VRUIP/Package Files/Materials/Granite_Floor.mat
+  artifactKey: Guid(7442b119780a2884db8372dc71062932) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/VRUIP/Package Files/Materials/Granite_Floor.mat using Guid(7442b119780a2884db8372dc71062932) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b35016361a70936515668e84b445dfbf') in 0.045892 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/VRUIP/Package Files/Materials/Color_Picker_Initial.mat
+  artifactKey: Guid(eddd0d27b9fda084bb7345e0f0098208) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/VRUIP/Package Files/Materials/Color_Picker_Initial.mat using Guid(eddd0d27b9fda084bb7345e0f0098208) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8787765ef1cbab3903d1df9b135d5b27') in 0.006598 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/VRUIP/Package Files/Materials/Foam_Material.mat
+  artifactKey: Guid(b77478c6fb906994da8b90f4bdba51d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/VRUIP/Package Files/Materials/Foam_Material.mat using Guid(b77478c6fb906994da8b90f4bdba51d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa944c79f8a6338740cb19813574a578') in 0.225296 seconds 
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 6.002337 seconds.
+  path: Assets/VRUIP/Package Files/Images/Other/Realary_Logo_Drawing.png
+  artifactKey: Guid(da5c50575e4be894a880ff771dacaf13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/VRUIP/Package Files/Images/Other/Realary_Logo_Drawing.png using Guid(da5c50575e4be894a880ff771dacaf13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c834fedca16f38cef0c600aa3dd736e4') in 0.034247 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 3.001032 seconds.
+  path: Assets/VRUIP/Package Files/Images/Other/Test/TestBanner1.png
+  artifactKey: Guid(6a747f3dd1d6da44aa02c422be2ed982) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/VRUIP/Package Files/Images/Other/Test/TestBanner1.png using Guid(6a747f3dd1d6da44aa02c422be2ed982) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61d159dc5d736095c51169528c2026a5') in 0.020381 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/VRUIP/Package Files/Images/Other/Test/TestBanner6.png
+  artifactKey: Guid(89ac87ce6cbe4064e86054fa3a2d5bf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/VRUIP/Package Files/Images/Other/Test/TestBanner6.png using Guid(89ac87ce6cbe4064e86054fa3a2d5bf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf3199ca20d143d906f96c787b8d5ba7') in 0.016914 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/VRUIP/Package Files/Images/Other/Test/TestBanner5.png
+  artifactKey: Guid(ab0baf36c4f7bd843b1c875c550ff033) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/VRUIP/Package Files/Images/Other/Test/TestBanner5.png using Guid(ab0baf36c4f7bd843b1c875c550ff033) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee3d1bc5383f58bfdd1ba72a66d157cc') in 0.020476 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/VRUIP/Package Files/Images/Other/Test/TestImage2.png
+  artifactKey: Guid(89adc1acee29e5f4092370f57cc94c85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/VRUIP/Package Files/Images/Other/Test/TestImage2.png using Guid(89adc1acee29e5f4092370f57cc94c85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e26b2fa0b4936e63d9d81c8fe1bdc81d') in 0.065384 seconds 
+Number of asset objects unloaded after import = 3
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

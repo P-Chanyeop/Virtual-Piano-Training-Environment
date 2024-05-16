@@ -1,0 +1,555 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.37f1 (3b6005ad5ad6) revision 3891205'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22631) 64bit Professional' Language: 'ko' Physical Memory: 32599 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.3.37f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/IRENE_XD/My project (2)
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+56341
+Successfully changed project path to: C:/Users/IRENE_XD/My project (2)
+C:/Users/IRENE_XD/My project (2)
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [33320] Host "[IP] 192.168.200.183 [Port] 0 [Flags] 2 [Guid] 2709085408 [EditorId] 2709085408 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-RIJCT46) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [33320] Host "[IP] 192.168.200.183 [Port] 0 [Flags] 2 [Guid] 2709085408 [EditorId] 2709085408 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-RIJCT46) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with {0} workers.
+Refreshing native plugins compatible for Editor in 102.11 ms, found 12 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.37f1 (3b6005ad5ad6)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.37f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/IRENE_XD/My project (2)/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3060 Ti (ID=0x24c9)
+    Vendor:   NVIDIA
+    VRAM:     8038 MB
+    Driver:   31.0.15.3623
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.37f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.37f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.37f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56960
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.37f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.37f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.009563 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+CommandWithNoStdoutInvokationFailure: Unable to start ADB server. Please make sure the Android SDK is installed and is properly configured in the Editor. See the Console for more details.
+  at UnityEditor.Android.Command.RunWithShellExecute (System.String command, System.String args, System.String workingdir, System.String errorMsg) [0x00060] in <a304ea08c6e84fdfbffb7dc641ca7e46>:0 
+  at UnityEditor.Android.ADB.StartServer () [0x00013] in <a304ea08c6e84fdfbffb7dc641ca7e46>:0 
+  at UnityEditor.Android.ADB.Run (System.String[] command, UnityEditor.Android.Command+WaitingForProcessToExit waitingForProcessToExit, System.String errorMsg) [0x0000b] in <a304ea08c6e84fdfbffb7dc641ca7e46>:0 
+  at UnityEditor.Android.AndroidDeploymentTargetsExtension.GetKnownTargets (UnityEditor.DeploymentTargets.IDeploymentTargetsMainThreadContext context, UnityEditor.ProgressHandler progressHandler) [0x002ae] in <a304ea08c6e84fdfbffb7dc641ca7e46>:0 
+  at UnityEditor.Android.TargetScanWorker.ScanSync () [0x00039] in <a304ea08c6e84fdfbffb7dc641ca7e46>:0 
+  at UnityEditor.Android.TargetExtension.OnUsbDevicesChanged (UnityEditor.Hardware.UsbDevice[] usbDevices) [0x00081] in <a304ea08c6e84fdfbffb7dc641ca7e46>:0 
+  at UnityEditor.Android.TargetExtension.OnLoad () [0x0008d] in <a304ea08c6e84fdfbffb7dc641ca7e46>:0 
+  at UnityEditor.Modules.ModuleManager.InitializePlatformSupportModules () [0x0009d] in <67a998a95283436285f462ed6d9924e2>:0 
+
+Refreshing native plugins compatible for Editor in 93.02 ms, found 12 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  6.476 seconds
+Domain Reload Profiling:
+	ReloadAssembly (6477ms)
+		BeginReloadAssembly (93ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (0ms)
+		EndReloadAssembly (6307ms)
+			LoadAssemblies (90ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (74ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (18ms)
+			SetupLoadedEditorAssemblies (6176ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5986ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (93ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (65ms)
+				ProcessInitializeOnLoadMethodAttributes (31ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Registering precompiled user dll's ...
+Registered in 0.014730 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 90.68 ms, found 12 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Completed reload, in  1.931 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1931ms)
+		BeginReloadAssembly (106ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (14ms)
+		EndReloadAssembly (1739ms)
+			LoadAssemblies (110ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (255ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (61ms)
+			SetupLoadedEditorAssemblies (1288ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (16ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (91ms)
+				BeforeProcessingInitializeOnLoad (136ms)
+				ProcessInitializeOnLoadAttributes (948ms)
+				ProcessInitializeOnLoadMethodAttributes (88ms)
+				AfterProcessingInitializeOnLoad (9ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 1.03 ms, found 12 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6879 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 90 unused Assets / (1.1 MB). Loaded Objects now: 7328.
+Memory consumption went from 252.3 MB to 251.2 MB.
+Total: 9.183600 ms (FindLiveObjects: 0.322300 ms CreateObjectMapping: 0.216100 ms MarkObjects: 8.239200 ms  DeleteObjects: 0.405000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:CustomObjectIndexerAttribute: bc11b3a6c3213fcdd17b65e7da85e133 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.013895 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 1.05 ms, found 12 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Completed reload, in  1.770 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1771ms)
+		BeginReloadAssembly (160ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (2ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (37ms)
+		EndReloadAssembly (1533ms)
+			LoadAssemblies (106ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (243ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (33ms)
+			SetupLoadedEditorAssemblies (1109ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (16ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (106ms)
+				ProcessInitializeOnLoadAttributes (897ms)
+				ProcessInitializeOnLoadMethodAttributes (78ms)
+				AfterProcessingInitializeOnLoad (10ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.07 ms, found 12 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6813 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 82 unused Assets / (1.1 MB). Loaded Objects now: 7334.
+Memory consumption went from 247.6 MB to 246.5 MB.
+Total: 8.652800 ms (FindLiveObjects: 0.389100 ms CreateObjectMapping: 0.285400 ms MarkObjects: 7.598900 ms  DeleteObjects: 0.378400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:CustomObjectIndexerAttribute: bc11b3a6c3213fcdd17b65e7da85e133 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 959032.185242 seconds.
+  path: Assets/VRUIP/Prefabs/3D UI/Collections
+  artifactKey: Guid(1027d1fc58400f04bba3e98df10461fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/VRUIP/Prefabs/3D UI/Collections using Guid(1027d1fc58400f04bba3e98df10461fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27f2247ba4e27c2b42ed9a58dfb1cc4c') in 0.016737 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 31.943264 seconds.
+  path: Assets/VRUIP/Prefabs/3D UI/Elements/Element_Pop.prefab
+  artifactKey: Guid(fb27409062a443f4998f548fca7d04da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/VRUIP/Prefabs/3D UI/Elements/Element_Pop.prefab using Guid(fb27409062a443f4998f548fca7d04da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb5e30bf375237f69fdd97d76616b86d') in 0.083225 seconds 
+Number of asset objects unloaded after import = 35
+========================================================================
+Received Import Request.
+  Time since last request: 4.178427 seconds.
+  path: Assets/VRUIP/Demo Scenes/DemoSceneEditor.unity
+  artifactKey: Guid(375e028818b8be44c831d6503266102b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/VRUIP/Demo Scenes/DemoSceneEditor.unity using Guid(375e028818b8be44c831d6503266102b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f549c22be131e7c210f7129ebcbe2278') in 0.002141 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.646014 seconds.
+  path: Assets/VRUIP/Demo Scenes/DemoSceneOculus.unity
+  artifactKey: Guid(aedfd6772ad808c448805b9b5ddb35f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/VRUIP/Demo Scenes/DemoSceneOculus.unity using Guid(aedfd6772ad808c448805b9b5ddb35f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '972e1a305647c9f53ed271e5438c1528') in 0.001164 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.816694 seconds.
+  path: Assets/VRUIP/Demo Scenes/DemoSceneXRITK.unity
+  artifactKey: Guid(bee2e1cbbc488854c92f5aa8dcbda5c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/VRUIP/Demo Scenes/DemoSceneXRITK.unity using Guid(bee2e1cbbc488854c92f5aa8dcbda5c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc402c69f2ca347cd1845c4502fc6157') in 0.001122 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 31.382121 seconds.
+  path: Assets/Scenes/BlankAR.unity
+  artifactKey: Guid(6bdce89659816455b9f906fc62d19910) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Scenes/BlankAR.unity using Guid(6bdce89659816455b9f906fc62d19910) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'feb644538c24f2d268aa45781cc582b4') in 0.001148 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.251186 seconds.
+  path: Assets/Scenes/main_scene.unity
+  artifactKey: Guid(dd9442d0f03bbe542aa609ce9126cffe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Scenes/main_scene.unity using Guid(dd9442d0f03bbe542aa609ce9126cffe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9824f18d5d4e8064225899a5a2bfbaa') in 0.001321 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 18.551424 seconds.
+  path: Assets/VRUIP/Prefabs/Tools/Drawing
+  artifactKey: Guid(bae01a3e6d967714db0e8d2861e06e93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/VRUIP/Prefabs/Tools/Drawing using Guid(bae01a3e6d967714db0e8d2861e06e93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e28a1d303d1ff4b94c55a70035429f4f') in 0.001692 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.135658 seconds.
+  path: Assets/VRUIP/Prefabs/Tools/Drawing/Color Palette.prefab
+  artifactKey: Guid(1bb289325a92650439163c9fd8da8765) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/VRUIP/Prefabs/Tools/Drawing/Color Palette.prefab using Guid(1bb289325a92650439163c9fd8da8765) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2461fb1d5884ce96d6d118bea8eb70d5') in 0.040777 seconds 
+Number of asset objects unloaded after import = 61
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/VRUIP/Prefabs/Tools/Drawing/Pen.prefab
+  artifactKey: Guid(84371851a5d634b449d40eb01793320a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/VRUIP/Prefabs/Tools/Drawing/Pen.prefab using Guid(84371851a5d634b449d40eb01793320a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab509358b85b899a80d9a26c9e5377f8') in 0.009409 seconds 
+Number of asset objects unloaded after import = 28
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/VRUIP/Prefabs/Tools/Drawing/Pen_Color_Changer.prefab
+  artifactKey: Guid(0a023c90167622c4dbe0331b633bcc53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/VRUIP/Prefabs/Tools/Drawing/Pen_Color_Changer.prefab using Guid(0a023c90167622c4dbe0331b633bcc53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56cbc3378f4b6e07f82dbe997392a2e0') in 0.005784 seconds 
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 1.074183 seconds.
+  path: Assets/VRUIP/Prefabs/Tools/Camera/CameraVR.prefab
+  artifactKey: Guid(f2dfb05d4ff3ae4438bdd50bea0c34df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/VRUIP/Prefabs/Tools/Camera/CameraVR.prefab using Guid(f2dfb05d4ff3ae4438bdd50bea0c34df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a63543900270c100f1213258a981164') in 0.040931 seconds 
+Number of asset objects unloaded after import = 117
+========================================================================
+Received Import Request.
+  Time since last request: 9.216660 seconds.
+  path: Packages/com.unity.xr.arcore/package.json
+  artifactKey: Guid(96d3d50e9dd0d654c90f6f35bb673559) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Packages/com.unity.xr.arcore/package.json using Guid(96d3d50e9dd0d654c90f6f35bb673559) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '854492a8b9dc5591dbcd17d41b9a5209') in 0.007416 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.018836 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 1.15 ms, found 12 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Completed reload, in  1.804 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1805ms)
+		BeginReloadAssembly (167ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (2ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (42ms)
+		EndReloadAssembly (1552ms)
+			LoadAssemblies (137ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (241ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (35ms)
+			SetupLoadedEditorAssemblies (1097ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (18ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (117ms)
+				ProcessInitializeOnLoadAttributes (880ms)
+				ProcessInitializeOnLoadMethodAttributes (71ms)
+				AfterProcessingInitializeOnLoad (10ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.02 ms, found 12 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6813 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 84 unused Assets / (1.1 MB). Loaded Objects now: 7351.
+Memory consumption went from 248.0 MB to 246.9 MB.
+Total: 8.647600 ms (FindLiveObjects: 0.349400 ms CreateObjectMapping: 0.246800 ms MarkObjects: 7.631700 ms  DeleteObjects: 0.418800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:CustomObjectIndexerAttribute: bc11b3a6c3213fcdd17b65e7da85e133 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 722.427753 seconds.
+  path: Assets/VRUIP/Package Files/Models
+  artifactKey: Guid(4f6888119c5f1ee45a589e2433d1248e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/VRUIP/Package Files/Models using Guid(4f6888119c5f1ee45a589e2433d1248e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '810a4d8deecb56e981805b5481fccebf') in 0.016339 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.493473 seconds.
+  path: Assets/VRUIP/Package Files/Textures
+  artifactKey: Guid(1367250a03c7877489be98cfa1297abf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/VRUIP/Package Files/Textures using Guid(1367250a03c7877489be98cfa1297abf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d3c3e0490dcc1e3317e6e315bd1a683') in 0.001688 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.662605 seconds.
+  path: Assets/VRUIP/Package Files/Models/cone.fbx
+  artifactKey: Guid(710b0d7b1c8edb749bbdf34bbddac14d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/VRUIP/Package Files/Models/cone.fbx using Guid(710b0d7b1c8edb749bbdf34bbddac14d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f84aff3c8460b8d60542b0fef904201a') in 0.084009 seconds 
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 0.761248 seconds.
+  path: Assets/VRUIP/Package Files/Models/VR Hands
+  artifactKey: Guid(fc418d5ed5159f24b9212a11bb97db1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/VRUIP/Package Files/Models/VR Hands using Guid(fc418d5ed5159f24b9212a11bb97db1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3225e7181441467dde323da3aaacdca4') in 0.001226 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.667934 seconds.
+  path: Assets/VRUIP/Package Files/Models/VR Hands/Prefabs
+  artifactKey: Guid(176a87d49f06d4340bf832ac8e2f5df5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/VRUIP/Package Files/Models/VR Hands/Prefabs using Guid(176a87d49f06d4340bf832ac8e2f5df5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7801f5d36c17c730ee34ea48c988ee49') in 0.001583 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.035159 seconds.
+  path: Assets/VRUIP/Package Files/Models/VR Hands/Prefabs/Left Hand.prefab
+  artifactKey: Guid(65847589f926b734d9eaed6e25f0046b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/VRUIP/Package Files/Models/VR Hands/Prefabs/Left Hand.prefab using Guid(65847589f926b734d9eaed6e25f0046b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82921580fdba1b0fb55cf7439823683d') in 0.021723 seconds 
+Number of asset objects unloaded after import = 71
+========================================================================
+Received Import Request.
+  Time since last request: 1.368111 seconds.
+  path: Assets/VRUIP/Package Files/Models/VR Hands/Materials/Hands_solid.mat
+  artifactKey: Guid(3637b758ff163493f8bb8b6d7e96d7ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/VRUIP/Package Files/Models/VR Hands/Materials/Hands_solid.mat using Guid(3637b758ff163493f8bb8b6d7e96d7ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a198c027824ec859ffebd4dc5e78bc61') in 0.016626 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/VRUIP/Package Files/Models/VR Hands/Materials/Hands_transparent.mat
+  artifactKey: Guid(944feb076639a4d39b750e3cb5d7dfab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/VRUIP/Package Files/Models/VR Hands/Materials/Hands_transparent.mat using Guid(944feb076639a4d39b750e3cb5d7dfab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6bb7b56af9d9d70ef62b708685df9666') in 0.086283 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.312229 seconds.
+  path: Assets/VRUIP/Package Files/Models/VR Hands/Animations/l_hand_cap_touch_anim.fbx
+  artifactKey: Guid(16a87db82a90e2b40986857ee65aea51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/VRUIP/Package Files/Models/VR Hands/Animations/l_hand_cap_touch_anim.fbx using Guid(16a87db82a90e2b40986857ee65aea51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9904f5f912048b2955cda04232c145b5') in 0.004378 seconds 
+Number of asset objects unloaded after import = 55
+========================================================================
+Received Import Request.
+  Time since last request: 0.001757 seconds.
+  path: Assets/VRUIP/Package Files/Models/VR Hands/Animations/l_hand_fist_anim.fbx
+  artifactKey: Guid(7cb2e1480bb51ce4282f540ea3f41d4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/VRUIP/Package Files/Models/VR Hands/Animations/l_hand_fist_anim.fbx using Guid(7cb2e1480bb51ce4282f540ea3f41d4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f447fc6cef5f682813ca5dd010c8376') in 0.007277 seconds 
+Number of asset objects unloaded after import = 55
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/VRUIP/Package Files/Models/VR Hands/Animations/l_hand_relax_mid_fist_anim.fbx
+  artifactKey: Guid(ce6184a26b41c254ea24a5968f59d34e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/VRUIP/Package Files/Models/VR Hands/Animations/l_hand_relax_mid_fist_anim.fbx using Guid(ce6184a26b41c254ea24a5968f59d34e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '170e2a49051c96d9548a47c8823d9c26') in 0.005272 seconds 
+Number of asset objects unloaded after import = 55
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/VRUIP/Package Files/Models/VR Hands/Animations/l_hand_cap_touch_thumb_mask_anim.fbx
+  artifactKey: Guid(73af2d5eb4aa5f84c9489fec88acb742) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/VRUIP/Package Files/Models/VR Hands/Animations/l_hand_cap_touch_thumb_mask_anim.fbx using Guid(73af2d5eb4aa5f84c9489fec88acb742) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae14dcabb801fd1d6242798b2556fca8') in 0.004571 seconds 
+Number of asset objects unloaded after import = 55
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/VRUIP/Package Files/Models/VR Hands/Animations/l_hand_default_anim.fbx
+  artifactKey: Guid(1ae9aefe37a62de429ddc2edd1ca36f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/VRUIP/Package Files/Models/VR Hands/Animations/l_hand_default_anim.fbx using Guid(1ae9aefe37a62de429ddc2edd1ca36f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee8802c8944ac56b37b8f42e78780801') in 0.004208 seconds 
+Number of asset objects unloaded after import = 57
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/VRUIP/Package Files/Models/VR Hands/Animations/l_hand_hold_generic_anim.fbx
+  artifactKey: Guid(b8943b5ee74fcd945a2746d0051466cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/VRUIP/Package Files/Models/VR Hands/Animations/l_hand_hold_generic_anim.fbx using Guid(b8943b5ee74fcd945a2746d0051466cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cceb4e225b99e3849bfd8c942fe42c00') in 0.004766 seconds 
+Number of asset objects unloaded after import = 55
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/VRUIP/Package Files/Models/VR Hands/Animations/l_hand_relax_3qtr_fist_anim.fbx
+  artifactKey: Guid(79e0d96a3e30fec46a930ab7dd95ef5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/VRUIP/Package Files/Models/VR Hands/Animations/l_hand_relax_3qtr_fist_anim.fbx using Guid(79e0d96a3e30fec46a930ab7dd95ef5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a984468b203791eb809d4cfdf6ef0880') in 0.004604 seconds 
+Number of asset objects unloaded after import = 55
+========================================================================
+Received Import Request.
+  Time since last request: 2.148147 seconds.
+  path: Assets/VRUIP/Package Files/Models/VR Hands/Models/HandMaterial.mat
+  artifactKey: Guid(cc8c9e8a516866042b69a6919d0ab885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/VRUIP/Package Files/Models/VR Hands/Models/HandMaterial.mat using Guid(cc8c9e8a516866042b69a6919d0ab885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd615436be2537df83fba994f74d13bd') in 0.006969 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/VRUIP/Package Files/Models/VR Hands/Models/r_hand_skeletal_lowres.fbx
+  artifactKey: Guid(d0c255d07fd68f14b94e55d388e7e6bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/VRUIP/Package Files/Models/VR Hands/Models/r_hand_skeletal_lowres.fbx using Guid(d0c255d07fd68f14b94e55d388e7e6bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ffd88bc1cafb696957fe65bedb5b1ddb') in 0.013770 seconds 
+Number of asset objects unloaded after import = 64
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
